@@ -1,0 +1,997 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GrandWP Calendar\n"
+"POT-Creation-Date: 2018-09-27 12:37+0400\n"
+"PO-Revision-Date: 2018-09-27 14:03+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: Controllers/Admin/AdminAssetsController.php:87
+msgid "Title is required field"
+msgstr "标题是必填的"
+
+#: Controllers/Admin/AdminController.php:119
+msgid "Themes"
+msgstr "主题"
+
+#: Controllers/Admin/AdminController.php:121
+msgid "Featured Plugins"
+msgstr "精选插件"
+
+#: Controllers/Admin/AdminController.php:128
+msgid "Title"
+msgstr "标题"
+
+#: Controllers/Admin/AdminController.php:129
+msgid "Featured Image"
+msgstr "精选图片"
+
+#: Controllers/Admin/AdminController.php:130
+msgid "Shortcode"
+msgstr "简码"
+
+#: Controllers/Admin/AdminController.php:131
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:35
+msgid "Theme"
+msgstr "主题"
+
+#: Controllers/Admin/AdminController.php:132
+#: resources/views/frontend/calendar/show.php:74
+msgid "Date"
+msgstr "日期"
+
+#: Controllers/Admin/AdminController.php:150
+msgid "Default Theme"
+msgstr "默认主题"
+
+#: Controllers/Admin/AjaxController.php:170
+msgid "All fields required."
+msgstr "所有领域都需要"
+
+#: Controllers/Admin/AjaxController.php:174
+#: Controllers/Admin/AjaxController.php:203
+msgid "Please enter a valid email address."
+msgstr "请输入有效的电子邮件地址"
+
+#: Controllers/Admin/AjaxController.php:178
+msgid "Message via calendar contact us"
+msgstr "通过日历留言，联系我们"
+
+#: Controllers/Admin/AjaxController.php:179
+msgid "Reply-To: "
+msgstr "回复:"
+
+#: Controllers/Admin/AjaxController.php:180
+msgid "Message: "
+msgstr "信息："
+
+#: Controllers/Admin/AjaxController.php:188
+msgid "Your email was sent to the website administrator. Thanks!"
+msgstr "您的电子邮件已发送给网站管理员。谢谢！"
+
+#: Controllers/Admin/AjaxController.php:218
+msgid "You successfully subscribed. Thanks!"
+msgstr "您已成功订阅。谢谢！"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:28
+msgid "Calendar View"
+msgstr "日历设计"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:42
+msgid "Publish With ShortCodes"
+msgstr "使用ShortCodes发布"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:86
+#: resources/views/frontend/calendar/show.php:80
+msgid "Day"
+msgstr "天"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:87
+#: resources/views/frontend/calendar/show.php:83
+msgid "Week"
+msgstr "周"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:88
+#: resources/views/frontend/calendar/show.php:86
+msgid "Month"
+msgstr "月"
+
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:21
+msgid "General options"
+msgstr "一般选项"
+
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:30
+#: Controllers/Admin/MetaBoxes/VenueMetaBoxesController.php:20
+#: Controllers/PostTypesController.php:310
+msgid "Venue"
+msgstr "地点"
+
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:39
+#: Controllers/PostTypesController.php:246
+#: resources/views/admin/meta-boxes/event-organizer-box.php:7
+msgid "Organizer"
+msgstr "主办单位"
+
+#: Controllers/Admin/MetaBoxes/OrganizerMetaBoxesController.php:24
+#: Controllers/PostTypesController.php:245
+#: Controllers/PostTypesController.php:247
+#: resources/views/frontend/event/show.php:134
+msgid "Organizers"
+msgstr "主办单位"
+
+#: Controllers/Admin/ShortcodeController.php:22
+#: resources/views/admin/inline-popup.php:19
+msgid "Insert Calendar"
+msgstr "输入日历"
+
+#: Controllers/Admin/ShortcodeController.php:23
+msgid "Add Calendar"
+msgstr "添加日历"
+
+#: Controllers/Frontend/EventsController.php:48
+msgid "FREE"
+msgstr "免费"
+
+#: Controllers/PostTypesController.php:56
+msgid "Events List"
+msgstr "活动清单"
+
+#. Plugin Name of the plugin/theme
+#: Controllers/PostTypesController.php:57
+#: Controllers/Widgets/CalendarWidgetController.php:13
+msgid "GrandWP Calendar"
+msgstr "GrandWP日历"
+
+#: Controllers/PostTypesController.php:58
+msgid "Event"
+msgstr "活动"
+
+#: Controllers/PostTypesController.php:59
+msgid "Events"
+msgstr "活动"
+
+#: Controllers/PostTypesController.php:60
+#: Controllers/PostTypesController.php:61
+msgid "Add New Event"
+msgstr "添加新活动"
+
+#: Controllers/PostTypesController.php:62
+msgid "New Event"
+msgstr "新活动"
+
+#: Controllers/PostTypesController.php:63
+msgid "Edit Event"
+msgstr "更改活动"
+
+#: Controllers/PostTypesController.php:64
+msgid "View Event"
+msgstr "查看活动"
+
+#: Controllers/PostTypesController.php:65
+msgid "View Events"
+msgstr "查看活动"
+
+#: Controllers/PostTypesController.php:66
+msgid "Search Event"
+msgstr "搜索活动"
+
+#: Controllers/PostTypesController.php:67
+msgid "No events found"
+msgstr "未找到任何活动"
+
+#: Controllers/PostTypesController.php:68
+msgid "No events found in Trash"
+msgstr "垃圾箱中未找到任何活动"
+
+#: Controllers/PostTypesController.php:127
+msgid "Calendars List"
+msgstr "日历列表"
+
+#: Controllers/PostTypesController.php:128
+msgid "Calendar"
+msgstr "日历"
+
+#: Controllers/PostTypesController.php:129
+msgid "Calendars"
+msgstr "日历"
+
+#: Controllers/PostTypesController.php:130
+#: Controllers/PostTypesController.php:131
+msgid "Add New Calendar"
+msgstr "添加新日历"
+
+#: Controllers/PostTypesController.php:132
+msgid "Edit Calendar"
+msgstr "更改日历"
+
+#: Controllers/PostTypesController.php:133
+msgid "New Calendar"
+msgstr "新日历"
+
+#: Controllers/PostTypesController.php:134
+msgid "View Calendar"
+msgstr "查看日历"
+
+#: Controllers/PostTypesController.php:135
+msgid "View Calendars"
+msgstr "查看日历"
+
+#: Controllers/PostTypesController.php:136
+msgid "Search Calendar"
+msgstr "搜寻日历"
+
+#: Controllers/PostTypesController.php:137
+msgid "No calendars found"
+msgstr "未找到任何日历"
+
+#: Controllers/PostTypesController.php:138
+msgid "No calendars found in Trash"
+msgstr "垃圾箱中未找到任何日历"
+
+#: Controllers/PostTypesController.php:158
+msgctxt "categories"
+msgid "Event Categories"
+msgstr "活动类别"
+
+#: Controllers/PostTypesController.php:159
+msgctxt "category"
+msgid "Event Category"
+msgstr "活动类别"
+
+#: Controllers/PostTypesController.php:160
+msgid "Search Category"
+msgstr "搜寻类别"
+
+#: Controllers/PostTypesController.php:161
+msgid "All Categories"
+msgstr "所有类别"
+
+#: Controllers/PostTypesController.php:162
+msgid "Parent Category"
+msgstr "家长类别"
+
+#: Controllers/PostTypesController.php:163
+msgid "Parent Category:"
+msgstr "家长类别："
+
+#: Controllers/PostTypesController.php:164
+msgid "Edit Category"
+msgstr "更改类别"
+
+#: Controllers/PostTypesController.php:165
+msgid "Update Category"
+msgstr "更新类别"
+
+#: Controllers/PostTypesController.php:166
+msgid "Add New Category"
+msgstr "添加类别"
+
+#: Controllers/PostTypesController.php:167
+msgid "New Category Name"
+msgstr "新类别名称"
+
+#: Controllers/PostTypesController.php:168
+msgid "Event Categories"
+msgstr "活动类别"
+
+#: Controllers/PostTypesController.php:184
+msgctxt "tags"
+msgid "Event Tags"
+msgstr "活动标记"
+
+#: Controllers/PostTypesController.php:185
+msgctxt "tag"
+msgid "Event Tag"
+msgstr "活动标记"
+
+#: Controllers/PostTypesController.php:186
+msgid "Search Tags"
+msgstr "搜寻标记"
+
+#: Controllers/PostTypesController.php:187
+msgid "All Tags"
+msgstr "所有标记"
+
+#: Controllers/PostTypesController.php:188
+msgid "Parent Tag"
+msgstr "家长标记"
+
+#: Controllers/PostTypesController.php:189
+msgid "Parent Tag:"
+msgstr "家长标记："
+
+#: Controllers/PostTypesController.php:190
+msgid "Edit Tag"
+msgstr "更改标记"
+
+#: Controllers/PostTypesController.php:191
+msgid "Update Tag"
+msgstr "更新标记"
+
+#: Controllers/PostTypesController.php:192
+msgid "Add New Tag"
+msgstr "添加新标记"
+
+#: Controllers/PostTypesController.php:193
+msgid "New Tag Name"
+msgstr "新标记名称"
+
+#: Controllers/PostTypesController.php:194
+msgid "Event Tags"
+msgstr "活动标记"
+
+#: Controllers/PostTypesController.php:248
+#: Controllers/PostTypesController.php:249
+msgid "Add New Organizer"
+msgstr "添加新的组织者"
+
+#: Controllers/PostTypesController.php:250
+msgid "Edit Organizer"
+msgstr "编辑组织者"
+
+#: Controllers/PostTypesController.php:251
+msgid "New Organizer"
+msgstr "新组织者"
+
+#: Controllers/PostTypesController.php:252
+msgid "View Organizer"
+msgstr "查看组织者"
+
+#: Controllers/PostTypesController.php:253
+msgid "View Organizers"
+msgstr "查看组织者"
+
+#: Controllers/PostTypesController.php:254
+msgid "Search Organizer"
+msgstr "搜索组织者"
+
+#: Controllers/PostTypesController.php:255
+msgid "No organizers found"
+msgstr "没有组织者找到"
+
+#: Controllers/PostTypesController.php:256
+msgid "No organizers found in Trash"
+msgstr "没有组织者在垃圾桶里找到"
+
+#: Controllers/PostTypesController.php:309
+#: Controllers/PostTypesController.php:311
+msgid "Venues"
+msgstr "地点"
+
+#: Controllers/PostTypesController.php:312
+#: Controllers/PostTypesController.php:313
+msgid "Add New Venue"
+msgstr "添加新地点"
+
+#: Controllers/PostTypesController.php:314
+msgid "Edit Venue"
+msgstr "更改地点"
+
+#: Controllers/PostTypesController.php:315
+msgid "New Venue"
+msgstr "新地点"
+
+#: Controllers/PostTypesController.php:316
+msgid "View Venue"
+msgstr "查看地点"
+
+#: Controllers/PostTypesController.php:317
+msgid "View Venues"
+msgstr "查看地点"
+
+#: Controllers/PostTypesController.php:318
+msgid "Search Venue"
+msgstr "搜寻地点"
+
+#: Controllers/PostTypesController.php:319
+msgid "No venues found"
+msgstr "未找到任何地点"
+
+#: Controllers/PostTypesController.php:320
+msgid "No venues found in Trash"
+msgstr "垃圾箱中未找到任何地点"
+
+#: Controllers/Widgets/CalendarWidgetController.php:14
+msgid "GranWP Calendar"
+msgstr "GrandWP日历"
+
+#: Controllers/Widgets/CalendarWidgetController.php:45
+msgid "Title:"
+msgstr "标题："
+
+#: Controllers/Widgets/CalendarWidgetController.php:48
+msgid "Select calendar:"
+msgstr "选择日历："
+
+#: Helpers/Currencies.php:10
+msgid "US Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:11
+msgid "Euros"
+msgstr ""
+
+#: Helpers/Currencies.php:12
+msgid "UAE Dirham"
+msgstr ""
+
+#: Helpers/Currencies.php:13
+msgid "Argentine Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:14
+msgid "Australian Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:15
+msgid "Armenian Dram"
+msgstr ""
+
+#: Helpers/Currencies.php:16
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: Helpers/Currencies.php:17
+msgid "Brazilian Real"
+msgstr ""
+
+#: Helpers/Currencies.php:18
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: Helpers/Currencies.php:19
+msgid "Canadian Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:20
+msgid "Chilean Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:21
+msgid "Chinese Yuan"
+msgstr ""
+
+#: Helpers/Currencies.php:22
+msgid "Colombian Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:23
+msgid "Czech Koruna"
+msgstr ""
+
+#: Helpers/Currencies.php:24
+msgid "Danish Krone"
+msgstr ""
+
+#: Helpers/Currencies.php:25
+msgid "Dominican Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:26
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:27
+msgid "Croatia kuna"
+msgstr ""
+
+#: Helpers/Currencies.php:28
+msgid "Hungarian Forint"
+msgstr ""
+
+#: Helpers/Currencies.php:29
+msgid "Icelandic krona"
+msgstr ""
+
+#: Helpers/Currencies.php:30
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: Helpers/Currencies.php:31
+msgid "Indian Rupee"
+msgstr ""
+
+#: Helpers/Currencies.php:32
+msgid "Nepali Rupee"
+msgstr ""
+
+#: Helpers/Currencies.php:33
+msgid "Israeli Shekel"
+msgstr ""
+
+#: Helpers/Currencies.php:34
+msgid "Japanese Yen"
+msgstr ""
+
+#: Helpers/Currencies.php:35
+msgid "Lao Kip"
+msgstr ""
+
+#: Helpers/Currencies.php:36
+msgid "South Korean Won"
+msgstr ""
+
+#: Helpers/Currencies.php:37
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: Helpers/Currencies.php:38
+msgid "Mexican Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:39
+msgid "Nigerian Naira"
+msgstr ""
+
+#: Helpers/Currencies.php:40
+msgid "Norwegian Krone"
+msgstr ""
+
+#: Helpers/Currencies.php:41
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:42
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: Helpers/Currencies.php:43
+msgid "Philippine Pesos"
+msgstr ""
+
+#: Helpers/Currencies.php:44
+msgid "Polish Zloty"
+msgstr ""
+
+#: Helpers/Currencies.php:45
+msgid "Pounds Sterling"
+msgstr ""
+
+#: Helpers/Currencies.php:46
+msgid "Romanian Leu"
+msgstr ""
+
+#: Helpers/Currencies.php:47
+msgid "Russian Ruble"
+msgstr ""
+
+#: Helpers/Currencies.php:48
+msgid "Singapore Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:49
+msgid "South African rand"
+msgstr ""
+
+#: Helpers/Currencies.php:50
+msgid "Swedish Krona"
+msgstr ""
+
+#: Helpers/Currencies.php:51
+msgid "Swiss Franc"
+msgstr ""
+
+#: Helpers/Currencies.php:52
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:53
+msgid "Thai Baht"
+msgstr ""
+
+#: Helpers/Currencies.php:54
+msgid "Turkish Lira"
+msgstr ""
+
+#: Helpers/Currencies.php:55
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: Helpers/Currencies.php:56
+msgid "Vietse Dong"
+msgstr ""
+
+#: Helpers/Currencies.php:57
+msgid "Egyptian Pound"
+msgstr ""
+
+#: resources/views/admin/ask-for-review.php:6
+msgid "Your opinion matters! Leave a Review!"
+msgstr "您的意见对我们来说很重要！留言给我们吧！"
+
+#: resources/views/admin/ask-for-review.php:9
+msgid ""
+"We hope you’ve enjoyed using GrandWP Event Calendar plugin! Would you "
+"consider leaving us a review on WordPress?"
+msgstr ""
+"我们希望您喜欢使用GrandWP的活动日历（Event Calender)插件！您会在WordPress上"
+"为我们留言吗？"
+
+#: resources/views/admin/ask-for-review.php:15
+msgid "Sure!"
+msgstr "确定！"
+
+#: resources/views/admin/ask-for-review.php:18
+msgid "Already Left :)"
+msgstr "已经离开了 :)"
+
+#: resources/views/admin/ask-for-review.php:21
+msgid "Maybe Later"
+msgstr "也许以后"
+
+#: resources/views/admin/ask-for-review.php:24
+msgid "Don't Show This!"
+msgstr "不要显示这个！"
+
+#: resources/views/admin/calendar-featured-plugins.php:60
+#: resources/views/admin/calendar-featured-plugins.php:107
+#: resources/views/admin/calendar-featured-plugins.php:151
+#: resources/views/admin/top-banner.php:47
+msgid "Demo"
+msgstr "演示版"
+
+#: resources/views/admin/calendar-settings.php:8
+msgid "your e-mail..."
+msgstr "您的电邮地址"
+
+#: resources/views/admin/calendar-settings.php:10
+msgid "Subscribe"
+msgstr "订阅"
+
+#: resources/views/admin/inline-popup.php:9
+msgid "Select the calendar to embed"
+msgstr "选择要嵌入的日历"
+
+#: resources/views/admin/inline-popup.php:20
+msgid "Cancel"
+msgstr "取消"
+
+#: resources/views/admin/inline-popup.php:26
+msgid "You have not created any calendars"
+msgstr "您尚未创建任何日历"
+
+#: resources/views/admin/inline-popup.php:28
+msgid "Create new Calendar"
+msgstr "创建新的日历"
+
+#: resources/views/admin/meta-boxes/calendar-settings-select-box.php:12
+msgid "Show events by"
+msgstr "活动显示排序方式"
+
+#: resources/views/admin/meta-boxes/calendar-settings-select-box.php:25
+msgid "Select All"
+msgstr "选择全部"
+
+#: resources/views/admin/meta-boxes/calendar-sidebar-box.php:11
+msgid "PHP Code"
+msgstr "PHP Code"
+
+#: resources/views/admin/meta-boxes/calendar-theme-box.php:7
+msgid "Select Theme"
+msgstr "选择主题"
+
+#: resources/views/admin/meta-boxes/calendar-theme-box.php:16
+#: resources/views/admin/meta-boxes/calendar-view-box.php:12
+#: resources/views/admin/meta-boxes/calendar-view-box.php:29
+msgid "(Pro)"
+msgstr "Pro版本"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:7
+msgid "Choose View"
+msgstr "选择设计"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:10
+msgid "Sidebar"
+msgstr "侧边栏目"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:16
+msgid "All"
+msgstr "全部"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:29
+msgid "Year"
+msgstr "年"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:20
+msgid "Add organizer"
+msgstr "添加主办单位"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:21
+#: resources/views/admin/meta-boxes/event-venue-box.php:21
+msgid "Back"
+msgstr "返回"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:26
+#: resources/views/admin/meta-boxes/event-venue-box.php:26
+#: resources/views/admin/meta-boxes/organizer-box.php:8
+#: resources/views/frontend/organizer/show.php:14
+msgid "Name"
+msgstr "姓名"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:29
+#: resources/views/admin/meta-boxes/event-venue-box.php:29
+msgid "Please fill name field"
+msgstr "请填写姓名"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:33
+#: resources/views/frontend/event/show.php:138
+msgid "Organized by"
+msgstr "主办单位"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:39
+#: resources/views/admin/meta-boxes/event-venue-box.php:33
+#: resources/views/admin/meta-boxes/event-venue-box.php:34
+#: resources/views/admin/meta-boxes/organizer-box.php:14
+#: resources/views/admin/meta-boxes/venue-box.php:9
+msgid "Address"
+msgstr "地址"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:45
+#: resources/views/admin/meta-boxes/organizer-box.php:20
+#: resources/views/frontend/organizer/show.php:22
+msgid "Phone"
+msgstr "电话号码"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:48
+#: resources/views/admin/meta-boxes/organizer-box.php:23
+msgid "Valid"
+msgstr "有效"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:49
+#: resources/views/admin/meta-boxes/organizer-box.php:24
+msgid "Invalid number"
+msgstr "号码无效"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:53
+#: resources/views/admin/meta-boxes/organizer-box.php:28
+#: resources/views/frontend/organizer/show.php:30
+msgid "Website"
+msgstr "网站"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:59
+#: resources/views/admin/meta-boxes/organizer-box.php:34
+#: resources/views/frontend/organizer/show.php:26
+msgid "Email"
+msgstr "电子邮件地址"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:62
+msgid "Not a valid email address"
+msgstr "电子邮件地址无效"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:69
+#: resources/views/admin/meta-boxes/event-venue-box.php:45
+msgid "Save"
+msgstr "保存"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:8
+#: resources/views/frontend/event/show.php:67
+msgid "All Day"
+msgstr "全天"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:17
+msgid "Start"
+msgstr "开始"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:20
+msgid "Please fill start date"
+msgstr "请填写开始日期"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:24
+msgid "End"
+msgstr "结束"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:27
+msgid "Please fill end date"
+msgstr "请填写结束日期"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:28
+msgid "Wrong end date given"
+msgstr "结束日期错误"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:33
+msgid "Timezone"
+msgstr "时区"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:48
+#: resources/views/frontend/event/show.php:79
+msgid "Repeat"
+msgstr "重复"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:52
+msgid "Rate"
+msgstr "率"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:54
+msgid "Choose"
+msgstr "选择"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:98
+#: resources/views/frontend/event/show.php:101
+msgid "Cost"
+msgstr "费用"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:104
+msgid "Select Currency"
+msgstr "选择货币"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:117
+msgid "Before"
+msgstr "前"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:118
+msgid "After"
+msgstr "后"
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:7
+#: resources/views/frontend/event/show.php:117
+#: resources/views/frontend/venue/show.php:14
+msgid "Location"
+msgstr "地点"
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:9
+msgid "Choose location"
+msgstr "选择地点"
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:20
+msgid "Add Venue"
+msgstr "添加地点"
+
+#: resources/views/admin/meta-boxes/venue-box.php:10
+msgid "Address..."
+msgstr "地址"
+
+#: resources/views/admin/top-banner.php:50
+msgid "Support Forum"
+msgstr "支援"
+
+#: resources/views/admin/top-banner.php:53
+msgid "Go Pro"
+msgstr "升级至Pro版本"
+
+#: resources/views/admin/top-banner.php:56
+msgid "Help"
+msgstr "帮助"
+
+#: resources/views/frontend/calendar/day.php:47
+#: resources/views/frontend/calendar/month.php:32
+#: resources/views/frontend/calendar/week.php:45
+msgid "No results found"
+msgstr "没有找到结果"
+
+#: resources/views/frontend/calendar/day.php:123
+#: resources/views/frontend/calendar/events.php:84
+#: resources/views/frontend/calendar/events.php:250
+#: resources/views/frontend/calendar/week.php:164
+msgid "All day"
+msgstr "全天"
+
+#: resources/views/frontend/calendar/day.php:144
+#: resources/views/frontend/calendar/day.php:165
+#: resources/views/frontend/calendar/one-event.php:26
+#: resources/views/frontend/calendar/week.php:185
+#: resources/views/frontend/calendar/week.php:198
+msgid "Starts"
+msgstr "开始"
+
+#: resources/views/frontend/calendar/day.php:145
+#: resources/views/frontend/calendar/day.php:166
+#: resources/views/frontend/calendar/one-event.php:27
+#: resources/views/frontend/calendar/week.php:186
+#: resources/views/frontend/calendar/week.php:199
+msgid "Ends"
+msgstr "结束"
+
+#: resources/views/frontend/calendar/more-event.php:2
+#: resources/views/frontend/calendar/week.php:214
+msgid "View all"
+msgstr "显示全部"
+
+#: resources/views/frontend/calendar/week.php:54
+msgid "CW"
+msgstr "本周"
+
+#: resources/views/frontend/event/show.php:32
+msgid "Back to Calendar"
+msgstr "返回日历"
+
+#: resources/views/frontend/event/show.php:44
+#: resources/views/frontend/event_category/show.php:32
+#: resources/views/frontend/event_tag/show.php:34
+msgid "Start Date"
+msgstr "开始日期"
+
+#: resources/views/frontend/event/show.php:48
+#: resources/views/frontend/event_category/show.php:36
+#: resources/views/frontend/event_tag/show.php:38
+msgid "End Date"
+msgstr "结束日期"
+
+#: resources/views/frontend/event/show.php:54
+msgid "Time"
+msgstr "时间"
+
+#: resources/views/frontend/event/show.php:72
+msgid "to"
+msgstr "至"
+
+#: resources/views/frontend/event/show.php:81
+msgid "Event repeated every "
+msgstr "活动重复每"
+
+#: resources/views/frontend/event/show.php:84
+msgid "day"
+msgstr "天"
+
+#: resources/views/frontend/event/show.php:84
+msgid "days"
+msgstr "天"
+
+#: resources/views/frontend/event/show.php:87
+msgid "week"
+msgstr "周"
+
+#: resources/views/frontend/event/show.php:87
+msgid "weeks"
+msgstr "周"
+
+#: resources/views/frontend/event/show.php:90
+msgid "month"
+msgstr "月"
+
+#: resources/views/frontend/event/show.php:90
+msgid "months"
+msgstr "月"
+
+#: resources/views/frontend/event/show.php:93
+msgid "year"
+msgstr "年"
+
+#: resources/views/frontend/event/show.php:93
+msgid "years"
+msgstr "年"
+
+#: resources/views/frontend/event/show.php:125
+#: resources/views/frontend/event_category/show.php:46
+#: resources/views/frontend/event_tag/show.php:48
+msgid "Description"
+msgstr "叙述"
+
+#: resources/views/frontend/event_category/show.php:58
+#: resources/views/frontend/event_tag/show.php:60
+msgid "Nothing found here"
+msgstr "这里找不到任何东西"
+
+#: resources/views/frontend/organizer/show.php:18
+msgid "Organizer's Address"
+msgstr "主办单位地址"
+
+#. Plugin URI of the plugin/theme
+msgid "http://grandwp.com"
+msgstr "http://grandwp.com"
+
+#. Description of the plugin/theme
+msgid "GrandWP Calendar is a great plugin for adding specialized Calendar."
+msgstr "GrandWP日历是一个很棒的插件，用于添加特殊日历。"
+
+#. Author of the plugin/theme
+msgid "GrandWP"
+msgstr "GrandWP"
+
+#. Author URI of the plugin/theme
+msgid "http://grandwp.com/"
+msgstr "http://grandwp.com/"

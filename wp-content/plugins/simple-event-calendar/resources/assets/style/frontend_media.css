@@ -1,0 +1,304 @@
+/* Sidebar Begin */
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_small_date{
+    font-size: 25px
+}
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_header_small{
+    font-size: 11px;
+    font-weight: 400;
+}
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_arrow_box > a{
+    font-size: 22px;
+}
+.gd_calendar_sidebar[max-width~="189"] .gd_calendar_header_small{
+    font-size: 8px;
+    color: #fff;
+}
+.gd_calendar_sidebar[max-width~="170"] .gd_calendar_small{
+    padding: 0;
+}
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_current_date_small{
+    width: 19px;
+    height: 19px;
+}
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_current_date_small p{
+    padding: 0;
+    line-height: 22px;
+    margin-top: 4px;
+}
+.gd_calendar_sidebar[max-width~="250px"] div.gd_calendar_current_date_small .gd_calendar_day_event_small span{
+    margin-top: 3px;
+}
+.gd_calendar_sidebar[max-width~="250px"] .circle_first,
+.gd_calendar_sidebar[max-width~="250px"] .circle_second,
+.gd_calendar_sidebar[max-width~="250px"] .circle_third{
+    margin-right:0;
+}
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_small{
+    margin-bottom: 20px;
+}
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_small_box,
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_small_day{
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_day_small{
+    height: 27px;
+}
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_small_event{
+    font-size: 12px;
+}
+.gd_calendar_sidebar[max-width~="250px"] .circle_big{
+    width: 10px;
+    height: 10px;
+}
+.gd_calendar_sidebar[max-width~="250px"] .gd_calendar_arrow_box{
+    padding: 0;
+}
+.gd_calendar_sidebar[max-width~="150px"] .gd_calendar_day_small{
+    line-height:4px;
+}
+.gd_calendar_sidebar[max-width~="150px"] .circle_first,
+.gd_calendar_sidebar[max-width~="150px"] .circle_second,
+.gd_calendar_sidebar[max-width~="150px"] .circle_third{
+    width: 4px;
+    height: 4px;
+}
+.gd_calendar_wrapper[max-width~="590px"] .gd_calendar_sidebar{
+    margin-bottom: 15px;
+    flex: 100%;
+}
+.gd_calendar_wrapper[max-width~="570px"] .gd_calendar_event_box_filter input[type="text"],
+.gd_calendar_wrapper[max-width~="570px"] .gd_calendar_search_box input[type="text"]{
+    width: 100%;
+}
+/* Sidebar End */
+/* Widget Begin */
+.widget .gd_calendar_sidebar[max-width~="350px"] .gd_calendar_header_small{
+    font-size: 10px;
+}
+.widget .gd_calendar_sidebar[max-width~="265px"][min-width~="251px"] .gd_calendar_header_small{
+    font-size: 9px;
+}
+.widget .gd_calendar_sidebar[max-width~="250px"] .gd_calendar_header_small{
+    font-size: 8px;
+}
+.widget .gd_calendar_sidebar[max-width~="216px"] .gd_calendar_header_small{
+    font-size: 7px;
+    color: #fff;
+}
+.widget .gd_calendar_sidebar[max-width~="250px"] .gd_calendar_current_date_small p{
+    line-height: 18px;
+    margin-top: 5px;
+}
+/* Widget End */
+/* Main Begin */
+.gd_calendar_main[max-width~="500px"] button.gd_calendar_day_view,
+.gd_calendar_main[max-width~="500px"] button.gd_calendar_week_view,
+.gd_calendar_main[max-width~="500px"] button.gd_calendar_month_view,
+.gd_calendar_main[max-width~="500px"] button.gd_calendar_year_view{
+    font-size: 14px;
+}
+.gd_calendar_main[max-width~="440px"][min-width~="415px"] button.gd_calendar_day_view,
+.gd_calendar_main[max-width~="440px"][min-width~="415px"] button.gd_calendar_week_view,
+.gd_calendar_main[max-width~="440px"][min-width~="415px"] button.gd_calendar_month_view,
+.gd_calendar_main[max-width~="440px"][min-width~="415px"] button.gd_calendar_year_view{
+    font-size: 13px;
+}
+.gd_calendar_main[max-width~="500px"] .gd_calendar_header{
+    font-size: 14px;
+}
+.gd_calendar_main[max-width~="500px"] .current_week_big_size{
+    font-size: 16px;
+}
+.gd_calendar_main[max-width~="500px"] .gd_calendar_day > p{
+    font-size: 14px;
+}
+.gd_calendar_main[max-width~="500px"] p.gd_calendar_first_day{
+    font-size: 16px;
+}
+.gd_calendar_main[max-width~="500px"] #gd_calendar_search_icon{
+    left:10%;
+}
+.gd_calendar_main[max-width~="500px"] .gd_calendar_search_box .gd_calendar_search{
+    padding-left: 28%;
+}
+.gd_calendar_main[max-width~="500px"] .gd_calendar_start_time{
+    display: none;
+}
+.gd_calendar_main[max-width~="415px"] #gd_calendar_search_icon{
+    display: none;
+}
+.gd_calendar_main[max-width~="415px"] .gd_calendar_search_box .gd_calendar_search{
+    padding-left: 15%;
+}
+/* Main End */
+/* Week View Begin */
+.gd_calendar_main[max-width~="500px"] .gd_calendar_week_number{
+    font-size: 15px;
+    margin: 0;
+}
+.gd_calendar_main[max-width~="500px"] .gd_calendar_week_number{
+    font-size: 15px;
+    margin: 0;
+}
+.gd_calendar_main[max-width~="500px"] .gd_calendar_day_name{
+    font-size: 11px;
+}
+.gd_calendar_main[max-width~="500px"] .gd_calendar_day_number{
+    font-size: 15px;
+}
+.gd_calendar_main[max-width~="500px"] .gd_calendar_week_table .gd_calendar_hour{
+    font-size: 14px;
+}
+.gd_calendar_main[max-width~="500px"] .gd_calendar_week_box{
+    font-size: 12px;
+    padding: 0;
+    border: none;
+}
+.gd_calendar_main[max-width~="400px"] .gd_calendar_week_time{
+    display: none;
+}
+.gd_calendar_main[max-width~="400px"] td.gd_calendar_week_cell{
+    max-width: 40px;
+}
+/* Week View End */
+/* Day View Begin */
+.gd_calendar_main[max-width~="651px"] .gd_calendar_day_title{
+    font-size: 20px;
+}
+.gd_calendar_main[max-width~="651px"] .gd_calendar_list .gd_calendar_hour{
+    font-size: 13px;
+}
+.gd_calendar_main[max-width~="651px"] .gd_calendar_list .gd_calendar_hour{
+    font-size: 13px;
+}
+.gd_calendar_main[max-width~="415px"] .gd_calendar_hour_event{
+    padding: 0;
+    vertical-align: top;
+}
+.gd_calendar_main[max-width~="415px"] td.gd_calendar_hour_event[colspan="5"]{
+    padding: 0 0 0 10px;
+    vertical-align: inherit;
+}
+.gd_calendar_main[max-width~="415px"] .gd_calendar_hour_event > p{
+    font-size: 13px;
+}
+.gd_calendar_main[max-width~="415px"] .gd_calendar_hour_event > a{
+    font-size: 13px !important;
+}
+.gd_calendar_main[max-width~="415px"] .gd_calendar_day_title{
+    font-size: 18px;
+    margin:0;
+}
+/* Day View End */
+/* Mobile size begin*/
+.gd_calendar_body[max-width~="415px"] .gd_calendar_header{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.gd_calendar_body[max-width~="415px"] td.gd_calendar_day{
+    height: 30px;
+    padding: 0;
+    border: none;
+    vertical-align: baseline;
+}
+.gd_calendar_body[max-width~="415px"] .gd_calendar_day > p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.gd_calendar_body[max-width~="415px"] p.gd_calendar_current_date{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -14px;
+    float: none;
+}
+.gd_calendar_body[max-width~="415px"] .gd_calendar_month_hover_box,
+.gd_calendar_body[max-width~="415px"] .gd_calendar_start_time,
+.gd_calendar_body[max-width~="415px"] .gd_calendar_see_all{
+    display: none !important;
+}
+.gd_calendar_body[max-width~="415px"] .gd_calendar_day_event{
+    padding: 0;
+    margin-top: -8px;
+    display: flex;
+    justify-content: center;
+}
+.gd_calendar_body[max-width~="415px"] .gd_calendar_day_event > div{
+    display: inline-flex;
+    background: none;
+    width: auto;
+}
+.gd_calendar_main[max-width~="392px"] .gd_calendar_bar{
+    display: inline-block;
+}
+.gd_calendar_wrapper[max-width~="500px"] .gd_calendar_week_hover_link{
+    font-size: 12px !important;
+}
+@media screen and (max-width: 415px){
+    .ui-datepicker{
+        width: 14.5em !important;
+        left: 8% !important;
+    }
+}
+/* Mobile size end*/
+/* Year View Begin */
+.gd_calendar_main[max-width~="768px"] .gd_calendar_year_table th{
+    font-size: 20px;
+}
+.gd_calendar_main[max-width~="768px"] .gd_calendar_year_title{
+    font-size: 30px;
+    margin-bottom: 0;
+    line-height: 54px;
+}
+.gd_calendar_main[max-width~="770px"] .circle_first,
+.gd_calendar_main[max-width~="770px"] .circle_second,
+.gd_calendar_main[max-width~="770px"] .circle_third{
+    width: 5px;
+    height: 5px;
+    margin-right: 0;
+    border-radius: 50%;
+}
+.gd_calendar_main[max-width~="770px"] .gd_calendar_year_cell > p{
+    margin-bottom: -11px;
+}
+.gd_calendar_main[max-width~="770px"] .gd_calendar_year_cell{
+    line-height: 10px;
+    height: 24px;
+}
+.gd_calendar_main[max-width~="770px"] p.gd_calendar_year_current_date{
+    width: 21px;
+    height: 21px;
+    line-height: 14px !important;
+    margin-top: 5px;
+}
+.gd_calendar_main[max-width~="803px"] .gd_calendar_month{
+    padding: 0 6px;
+}
+.gd_calendar_main[max-width~="705px"] .gd_calendar_month{
+    display: block;
+    float: left;
+    min-width: 50%;
+    margin-bottom: 15px;
+}
+.gd_calendar_main[max-width~="415px"] .gd_calendar_month{
+    min-width: 100%;
+}
+.gd_calendar_main[max-width~="415px"] .gd_calendar_year_table{
+    width: 75%;
+    margin: 0 auto;
+}
+.gd_calendar_main[max-width~="393px"] .gd_calendar_event_view_box{
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+.gd_calendar_main[max-width~="415px"] .gd_calendar_event_box_filter{
+    width: 30%;
+}
+.gd_calendar_main[max-width~="415px"] .gd_calendar_search_box{
+    width: 30%;
+}
+/* Year View End */

@@ -1,0 +1,999 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GrandWP Calendar\n"
+"POT-Creation-Date: 2018-09-26 18:27+0400\n"
+"PO-Revision-Date: 2018-09-27 17:12+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: Controllers/Admin/AdminAssetsController.php:87
+msgid "Title is required field"
+msgstr "タイトルは必須フィールドです"
+
+#: Controllers/Admin/AdminController.php:119
+msgid "Themes"
+msgstr "テーマ"
+
+#: Controllers/Admin/AdminController.php:121
+msgid "Featured Plugins"
+msgstr "機能プラグイン"
+
+#: Controllers/Admin/AdminController.php:128
+msgid "Title"
+msgstr "タイトル"
+
+#: Controllers/Admin/AdminController.php:129
+msgid "Featured Image"
+msgstr "特集画像"
+
+#: Controllers/Admin/AdminController.php:130
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: Controllers/Admin/AdminController.php:131
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:35
+msgid "Theme"
+msgstr "テーマ"
+
+#: Controllers/Admin/AdminController.php:132
+#: resources/views/frontend/calendar/show.php:74
+msgid "Date"
+msgstr "日付"
+
+#: Controllers/Admin/AdminController.php:150
+msgid "Default Theme"
+msgstr "既定のテーマ"
+
+#: Controllers/Admin/AjaxController.php:170
+msgid "All fields required."
+msgstr "すべてのフィールドが必要です。"
+
+#: Controllers/Admin/AjaxController.php:174
+#: Controllers/Admin/AjaxController.php:203
+msgid "Please enter a valid email address."
+msgstr "有効な電子メールアドレスを入力してください。"
+
+#: Controllers/Admin/AjaxController.php:178
+msgid "Message via calendar contact us"
+msgstr "カレンダーでご連絡　コンタクト"
+
+#: Controllers/Admin/AjaxController.php:179
+msgid "Reply-To: "
+msgstr "返信先:"
+
+#: Controllers/Admin/AjaxController.php:180
+msgid "Message: "
+msgstr "メッセージ:"
+
+#: Controllers/Admin/AjaxController.php:188
+msgid "Your email was sent to the website administrator. Thanks!"
+msgstr "Webサイト管理者に電子メールが送信されました。ありがとう!"
+
+#: Controllers/Admin/AjaxController.php:218
+msgid "You successfully subscribed. Thanks!"
+msgstr "購読に成功しました。ありがとう!"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:28
+msgid "Calendar View"
+msgstr "カレンダービュー"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:42
+msgid "Publish With ShortCodes"
+msgstr "ショートカットコードを使用してパブリッシュ"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:86
+#: resources/views/frontend/calendar/show.php:80
+msgid "Day"
+msgstr "日"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:87
+#: resources/views/frontend/calendar/show.php:83
+msgid "Week"
+msgstr "週"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:88
+#: resources/views/frontend/calendar/show.php:86
+msgid "Month"
+msgstr "月"
+
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:21
+msgid "General options"
+msgstr "基本設定"
+
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:30
+#: Controllers/Admin/MetaBoxes/VenueMetaBoxesController.php:20
+#: Controllers/PostTypesController.php:310
+msgid "Venue"
+msgstr "ベニュー"
+
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:39
+#: Controllers/PostTypesController.php:246
+#: resources/views/admin/meta-boxes/event-organizer-box.php:7
+msgid "Organizer"
+msgstr "オーガナイザー"
+
+#: Controllers/Admin/MetaBoxes/OrganizerMetaBoxesController.php:24
+#: Controllers/PostTypesController.php:245
+#: Controllers/PostTypesController.php:247
+#: resources/views/frontend/event/show.php:134
+msgid "Organizers"
+msgstr "主催者"
+
+#: Controllers/Admin/ShortcodeController.php:22
+#: resources/views/admin/inline-popup.php:19
+msgid "Insert Calendar"
+msgstr "カレンダーの挿入"
+
+#: Controllers/Admin/ShortcodeController.php:23
+msgid "Add Calendar"
+msgstr "カレンダーを追加"
+
+#: Controllers/Frontend/EventsController.php:48
+msgid "FREE"
+msgstr "無料"
+
+#: Controllers/PostTypesController.php:56
+msgid "Events List"
+msgstr "イベントリスト"
+
+#. Plugin Name of the plugin/theme
+#: Controllers/PostTypesController.php:57
+#: Controllers/Widgets/CalendarWidgetController.php:13
+msgid "GrandWP Calendar"
+msgstr "GrandWP Calendar"
+
+#: Controllers/PostTypesController.php:58
+msgid "Event"
+msgstr "イベント"
+
+#: Controllers/PostTypesController.php:59
+msgid "Events"
+msgstr "イベント"
+
+#: Controllers/PostTypesController.php:60
+#: Controllers/PostTypesController.php:61
+msgid "Add New Event"
+msgstr "新しいイベントの追加"
+
+#: Controllers/PostTypesController.php:62
+msgid "New Event"
+msgstr "新規イベント"
+
+#: Controllers/PostTypesController.php:63
+msgid "Edit Event"
+msgstr "イベントの編集"
+
+#: Controllers/PostTypesController.php:64
+msgid "View Event"
+msgstr "イベントの表示"
+
+#: Controllers/PostTypesController.php:65
+msgid "View Events"
+msgstr "イベントの表示"
+
+#: Controllers/PostTypesController.php:66
+msgid "Search Event"
+msgstr "イベントを検索"
+
+#: Controllers/PostTypesController.php:67
+msgid "No events found"
+msgstr "イベントが見つかりませんでした"
+
+#: Controllers/PostTypesController.php:68
+msgid "No events found in Trash"
+msgstr "ごみ箱にイベントが見つかりませんでした"
+
+#: Controllers/PostTypesController.php:127
+msgid "Calendars List"
+msgstr "カレンダーリスト"
+
+#: Controllers/PostTypesController.php:128
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: Controllers/PostTypesController.php:129
+msgid "Calendars"
+msgstr "カレンダー"
+
+#: Controllers/PostTypesController.php:130
+#: Controllers/PostTypesController.php:131
+msgid "Add New Calendar"
+msgstr "新しいカレンダーを追加"
+
+#: Controllers/PostTypesController.php:132
+msgid "Edit Calendar"
+msgstr "カレンダーの編集"
+
+#: Controllers/PostTypesController.php:133
+msgid "New Calendar"
+msgstr "新しいカレンダー"
+
+#: Controllers/PostTypesController.php:134
+msgid "View Calendar"
+msgstr "カレンダーの表示"
+
+#: Controllers/PostTypesController.php:135
+msgid "View Calendars"
+msgstr "カレンダーの表示"
+
+#: Controllers/PostTypesController.php:136
+msgid "Search Calendar"
+msgstr "カレンダーの検索"
+
+#: Controllers/PostTypesController.php:137
+msgid "No calendars found"
+msgstr "カレンダーが見つかりません"
+
+#: Controllers/PostTypesController.php:138
+msgid "No calendars found in Trash"
+msgstr "ゴミ箱にカレンダーが見つかりませんでした"
+
+#: Controllers/PostTypesController.php:158
+msgctxt "categories"
+msgid "Event Categories"
+msgstr "イベントカテゴリ"
+
+#: Controllers/PostTypesController.php:159
+msgctxt "category"
+msgid "Event Category"
+msgstr "イベントカテゴリ"
+
+#: Controllers/PostTypesController.php:160
+msgid "Search Category"
+msgstr "検索カテゴリ"
+
+#: Controllers/PostTypesController.php:161
+msgid "All Categories"
+msgstr "すべてのカテゴリ"
+
+#: Controllers/PostTypesController.php:162
+msgid "Parent Category"
+msgstr "親カテゴリ"
+
+#: Controllers/PostTypesController.php:163
+msgid "Parent Category:"
+msgstr "親カテゴリ:"
+
+#: Controllers/PostTypesController.php:164
+msgid "Edit Category"
+msgstr "カテゴリを編集"
+
+#: Controllers/PostTypesController.php:165
+msgid "Update Category"
+msgstr "カテゴリを更新"
+
+#: Controllers/PostTypesController.php:166
+msgid "Add New Category"
+msgstr "新しいカテゴリを追加"
+
+#: Controllers/PostTypesController.php:167
+msgid "New Category Name"
+msgstr "新しいカテゴリ名"
+
+#: Controllers/PostTypesController.php:168
+msgid "Event Categories"
+msgstr "イベントカテゴリ"
+
+#: Controllers/PostTypesController.php:184
+msgctxt "tags"
+msgid "Event Tags"
+msgstr "イベントタグ"
+
+#: Controllers/PostTypesController.php:185
+msgctxt "tag"
+msgid "Event Tag"
+msgstr "イベントタグ"
+
+#: Controllers/PostTypesController.php:186
+msgid "Search Tags"
+msgstr "タグの検索"
+
+#: Controllers/PostTypesController.php:187
+msgid "All Tags"
+msgstr "すべてのタグ"
+
+#: Controllers/PostTypesController.php:188
+msgid "Parent Tag"
+msgstr "親タグ"
+
+#: Controllers/PostTypesController.php:189
+msgid "Parent Tag:"
+msgstr "親タグ:"
+
+#: Controllers/PostTypesController.php:190
+msgid "Edit Tag"
+msgstr "タグを編集"
+
+#: Controllers/PostTypesController.php:191
+msgid "Update Tag"
+msgstr "タグを更新"
+
+#: Controllers/PostTypesController.php:192
+msgid "Add New Tag"
+msgstr "新しいタグを追加"
+
+#: Controllers/PostTypesController.php:193
+msgid "New Tag Name"
+msgstr "新しいタグ名"
+
+#: Controllers/PostTypesController.php:194
+msgid "Event Tags"
+msgstr "イベントタグ"
+
+#: Controllers/PostTypesController.php:248
+#: Controllers/PostTypesController.php:249
+msgid "Add New Organizer"
+msgstr "新規オーガナイザを追加"
+
+#: Controllers/PostTypesController.php:250
+msgid "Edit Organizer"
+msgstr "オーガナイザを編集"
+
+#: Controllers/PostTypesController.php:251
+msgid "New Organizer"
+msgstr "新規オーガナイザ"
+
+#: Controllers/PostTypesController.php:252
+msgid "View Organizer"
+msgstr "オーガナイザを表示"
+
+#: Controllers/PostTypesController.php:253
+msgid "View Organizers"
+msgstr "オーガナイザーを見る"
+
+#: Controllers/PostTypesController.php:254
+msgid "Search Organizer"
+msgstr "検索オーガナイザ"
+
+#: Controllers/PostTypesController.php:255
+msgid "No organizers found"
+msgstr "主催者が見つかりませんでした"
+
+#: Controllers/PostTypesController.php:256
+msgid "No organizers found in Trash"
+msgstr "ごみ箱にオーガナイザーが見つかりません"
+
+#: Controllers/PostTypesController.php:309
+#: Controllers/PostTypesController.php:311
+msgid "Venues"
+msgstr "会場"
+
+#: Controllers/PostTypesController.php:312
+#: Controllers/PostTypesController.php:313
+msgid "Add New Venue"
+msgstr "新しい場所を追加"
+
+#: Controllers/PostTypesController.php:314
+msgid "Edit Venue"
+msgstr "ベニューを編集"
+
+#: Controllers/PostTypesController.php:315
+msgid "New Venue"
+msgstr "新しいベニュー"
+
+#: Controllers/PostTypesController.php:316
+msgid "View Venue"
+msgstr "ベニューを見る"
+
+#: Controllers/PostTypesController.php:317
+msgid "View Venues"
+msgstr "ベニューを見る"
+
+#: Controllers/PostTypesController.php:318
+msgid "Search Venue"
+msgstr "ベニュー検索"
+
+#: Controllers/PostTypesController.php:319
+msgid "No venues found"
+msgstr "ベニューが見つかりません"
+
+#: Controllers/PostTypesController.php:320
+msgid "No venues found in Trash"
+msgstr "ごみ箱にベニューが見つかりませんでした"
+
+#: Controllers/Widgets/CalendarWidgetController.php:14
+msgid "GranWP Calendar"
+msgstr "GrandWPカレンダー"
+
+#: Controllers/Widgets/CalendarWidgetController.php:45
+msgid "Title:"
+msgstr "タイトル:"
+
+#: Controllers/Widgets/CalendarWidgetController.php:48
+msgid "Select calendar:"
+msgstr "カレンダーを選択:"
+
+#: Helpers/Currencies.php:10
+msgid "US Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:11
+msgid "Euros"
+msgstr ""
+
+#: Helpers/Currencies.php:12
+msgid "UAE Dirham"
+msgstr ""
+
+#: Helpers/Currencies.php:13
+msgid "Argentine Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:14
+msgid "Australian Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:15
+msgid "Armenian Dram"
+msgstr ""
+
+#: Helpers/Currencies.php:16
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: Helpers/Currencies.php:17
+msgid "Brazilian Real"
+msgstr ""
+
+#: Helpers/Currencies.php:18
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: Helpers/Currencies.php:19
+msgid "Canadian Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:20
+msgid "Chilean Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:21
+msgid "Chinese Yuan"
+msgstr ""
+
+#: Helpers/Currencies.php:22
+msgid "Colombian Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:23
+msgid "Czech Koruna"
+msgstr ""
+
+#: Helpers/Currencies.php:24
+msgid "Danish Krone"
+msgstr ""
+
+#: Helpers/Currencies.php:25
+msgid "Dominican Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:26
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:27
+msgid "Croatia kuna"
+msgstr ""
+
+#: Helpers/Currencies.php:28
+msgid "Hungarian Forint"
+msgstr ""
+
+#: Helpers/Currencies.php:29
+msgid "Icelandic krona"
+msgstr ""
+
+#: Helpers/Currencies.php:30
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: Helpers/Currencies.php:31
+msgid "Indian Rupee"
+msgstr ""
+
+#: Helpers/Currencies.php:32
+msgid "Nepali Rupee"
+msgstr ""
+
+#: Helpers/Currencies.php:33
+msgid "Israeli Shekel"
+msgstr ""
+
+#: Helpers/Currencies.php:34
+msgid "Japanese Yen"
+msgstr ""
+
+#: Helpers/Currencies.php:35
+msgid "Lao Kip"
+msgstr ""
+
+#: Helpers/Currencies.php:36
+msgid "South Korean Won"
+msgstr ""
+
+#: Helpers/Currencies.php:37
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: Helpers/Currencies.php:38
+msgid "Mexican Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:39
+msgid "Nigerian Naira"
+msgstr ""
+
+#: Helpers/Currencies.php:40
+msgid "Norwegian Krone"
+msgstr ""
+
+#: Helpers/Currencies.php:41
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:42
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: Helpers/Currencies.php:43
+msgid "Philippine Pesos"
+msgstr ""
+
+#: Helpers/Currencies.php:44
+msgid "Polish Zloty"
+msgstr ""
+
+#: Helpers/Currencies.php:45
+msgid "Pounds Sterling"
+msgstr ""
+
+#: Helpers/Currencies.php:46
+msgid "Romanian Leu"
+msgstr ""
+
+#: Helpers/Currencies.php:47
+msgid "Russian Ruble"
+msgstr ""
+
+#: Helpers/Currencies.php:48
+msgid "Singapore Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:49
+msgid "South African rand"
+msgstr ""
+
+#: Helpers/Currencies.php:50
+msgid "Swedish Krona"
+msgstr ""
+
+#: Helpers/Currencies.php:51
+msgid "Swiss Franc"
+msgstr ""
+
+#: Helpers/Currencies.php:52
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:53
+msgid "Thai Baht"
+msgstr ""
+
+#: Helpers/Currencies.php:54
+msgid "Turkish Lira"
+msgstr ""
+
+#: Helpers/Currencies.php:55
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: Helpers/Currencies.php:56
+msgid "Vietse Dong"
+msgstr ""
+
+#: Helpers/Currencies.php:57
+msgid "Egyptian Pound"
+msgstr ""
+
+#: resources/views/admin/ask-for-review.php:6
+msgid "Your opinion matters! Leave a Review!"
+msgstr "あなたの意見は重要です!レビューを残してください。"
+
+#: resources/views/admin/ask-for-review.php:9
+msgid ""
+"We hope you’ve enjoyed using GrandWP Event Calendar plugin! Would you "
+"consider leaving us a review on WordPress?"
+msgstr ""
+"GrandWP Event Calendarプラグインをお楽しみください。WordPressのレビューを残"
+"してくれませんか?"
+
+#: resources/views/admin/ask-for-review.php:15
+msgid "Sure!"
+msgstr "もちろん!"
+
+#: resources/views/admin/ask-for-review.php:18
+msgid "Already Left :)"
+msgstr "既に去りました"
+
+#: resources/views/admin/ask-for-review.php:21
+msgid "Maybe Later"
+msgstr "あとで"
+
+#: resources/views/admin/ask-for-review.php:24
+msgid "Don't Show This!"
+msgstr "これは表示しないで！"
+
+#: resources/views/admin/calendar-featured-plugins.php:60
+#: resources/views/admin/calendar-featured-plugins.php:107
+#: resources/views/admin/calendar-featured-plugins.php:151
+#: resources/views/admin/top-banner.php:47
+msgid "Demo"
+msgstr "デモバージョン"
+
+#: resources/views/admin/calendar-settings.php:8
+msgid "your e-mail..."
+msgstr "電子メール"
+
+#: resources/views/admin/calendar-settings.php:10
+msgid "Subscribe"
+msgstr "サブスクライブ"
+
+#: resources/views/admin/inline-popup.php:9
+msgid "Select the calendar to embed"
+msgstr "埋め込むカレンダーを選択"
+
+#: resources/views/admin/inline-popup.php:20
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: resources/views/admin/inline-popup.php:26
+msgid "You have not created any calendars"
+msgstr "カレンダーを作成していません"
+
+#: resources/views/admin/inline-popup.php:28
+msgid "Create new Calendar"
+msgstr "新しいカレンダーの作成"
+
+#: resources/views/admin/meta-boxes/calendar-settings-select-box.php:12
+msgid "Show events by"
+msgstr "イベントの表示方法"
+
+#: resources/views/admin/meta-boxes/calendar-settings-select-box.php:25
+msgid "Select All"
+msgstr "すべて選択"
+
+#: resources/views/admin/meta-boxes/calendar-sidebar-box.php:11
+msgid "PHP Code"
+msgstr "PHP Code"
+
+#: resources/views/admin/meta-boxes/calendar-theme-box.php:7
+msgid "Select Theme"
+msgstr "テーマの選択"
+
+#: resources/views/admin/meta-boxes/calendar-theme-box.php:16
+#: resources/views/admin/meta-boxes/calendar-view-box.php:12
+#: resources/views/admin/meta-boxes/calendar-view-box.php:29
+msgid "(Pro)"
+msgstr "プロ"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:7
+msgid "Choose View"
+msgstr "ビューの選択"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:10
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:16
+msgid "All"
+msgstr "すべて"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:29
+msgid "Year"
+msgstr "年"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:20
+msgid "Add organizer"
+msgstr "オーガナイザを追加"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:21
+#: resources/views/admin/meta-boxes/event-venue-box.php:21
+msgid "Back"
+msgstr "バック"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:26
+#: resources/views/admin/meta-boxes/event-venue-box.php:26
+#: resources/views/admin/meta-boxes/organizer-box.php:8
+#: resources/views/frontend/organizer/show.php:14
+msgid "Name"
+msgstr "名称"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:29
+#: resources/views/admin/meta-boxes/event-venue-box.php:29
+msgid "Please fill name field"
+msgstr "名前フィールドに入力してください"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:33
+#: resources/views/frontend/event/show.php:138
+msgid "Organized by"
+msgstr "主催者"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:39
+#: resources/views/admin/meta-boxes/event-venue-box.php:33
+#: resources/views/admin/meta-boxes/event-venue-box.php:34
+#: resources/views/admin/meta-boxes/organizer-box.php:14
+#: resources/views/admin/meta-boxes/venue-box.php:9
+msgid "Address"
+msgstr "所在地"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:45
+#: resources/views/admin/meta-boxes/organizer-box.php:20
+#: resources/views/frontend/organizer/show.php:22
+msgid "Phone"
+msgstr "電話番号"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:48
+#: resources/views/admin/meta-boxes/organizer-box.php:23
+msgid "Valid"
+msgstr "有効"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:49
+#: resources/views/admin/meta-boxes/organizer-box.php:24
+msgid "Invalid number"
+msgstr "無効な数です"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:53
+#: resources/views/admin/meta-boxes/organizer-box.php:28
+#: resources/views/frontend/organizer/show.php:30
+msgid "Website"
+msgstr "Webサイト"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:59
+#: resources/views/admin/meta-boxes/organizer-box.php:34
+#: resources/views/frontend/organizer/show.php:26
+msgid "Email"
+msgstr "Eメール"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:62
+msgid "Not a valid email address"
+msgstr "有効な電子メールアドレスではありません"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:69
+#: resources/views/admin/meta-boxes/event-venue-box.php:45
+msgid "Save"
+msgstr "保存"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:8
+#: resources/views/frontend/event/show.php:67
+msgid "All Day"
+msgstr "終日"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:17
+msgid "Start"
+msgstr "開始"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:20
+msgid "Please fill start date"
+msgstr "開始日を記入してください"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:24
+msgid "End"
+msgstr "終了"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:27
+msgid "Please fill end date"
+msgstr "終了日を記入してください"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:28
+msgid "Wrong end date given"
+msgstr "間違った終了日が指定されています"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:33
+msgid "Timezone"
+msgstr "タイムゾーン"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:48
+#: resources/views/frontend/event/show.php:79
+msgid "Repeat"
+msgstr "繰り返し"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:52
+msgid "Rate"
+msgstr "レート"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:54
+msgid "Choose"
+msgstr "選択"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:98
+#: resources/views/frontend/event/show.php:101
+msgid "Cost"
+msgstr "コスト"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:104
+msgid "Select Currency"
+msgstr "通貨の選択"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:117
+msgid "Before"
+msgstr "前"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:118
+msgid "After"
+msgstr "後"
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:7
+#: resources/views/frontend/event/show.php:117
+#: resources/views/frontend/venue/show.php:14
+msgid "Location"
+msgstr "所在地"
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:9
+msgid "Choose location"
+msgstr "場所の選択"
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:20
+msgid "Add Venue"
+msgstr "会場を追加"
+
+#: resources/views/admin/meta-boxes/venue-box.php:10
+msgid "Address..."
+msgstr "所在地..."
+
+#: resources/views/admin/top-banner.php:50
+msgid "Support Forum"
+msgstr "サポート"
+
+#: resources/views/admin/top-banner.php:53
+msgid "Go Pro"
+msgstr "プロになる"
+
+#: resources/views/admin/top-banner.php:56
+msgid "Help"
+msgstr "ヘルプ"
+
+#: resources/views/frontend/calendar/day.php:47
+#: resources/views/frontend/calendar/month.php:32
+#: resources/views/frontend/calendar/week.php:45
+msgid "No results found"
+msgstr "結果が見つかりませんでした"
+
+#: resources/views/frontend/calendar/day.php:123
+#: resources/views/frontend/calendar/events.php:84
+#: resources/views/frontend/calendar/events.php:250
+#: resources/views/frontend/calendar/week.php:164
+msgid "All day"
+msgstr "終日"
+
+#: resources/views/frontend/calendar/day.php:144
+#: resources/views/frontend/calendar/day.php:165
+#: resources/views/frontend/calendar/one-event.php:26
+#: resources/views/frontend/calendar/week.php:185
+#: resources/views/frontend/calendar/week.php:198
+msgid "Starts"
+msgstr "開始"
+
+#: resources/views/frontend/calendar/day.php:145
+#: resources/views/frontend/calendar/day.php:166
+#: resources/views/frontend/calendar/one-event.php:27
+#: resources/views/frontend/calendar/week.php:186
+#: resources/views/frontend/calendar/week.php:199
+msgid "Ends"
+msgstr "終わり"
+
+#: resources/views/frontend/calendar/more-event.php:2
+#: resources/views/frontend/calendar/week.php:214
+msgid "View all"
+msgstr "すべて表示"
+
+#: resources/views/frontend/calendar/week.php:54
+msgid "CW"
+msgstr "現在の週"
+
+#: resources/views/frontend/event/show.php:32
+msgid "Back to Calendar"
+msgstr "カレンダーに戻る"
+
+#: resources/views/frontend/event/show.php:44
+#: resources/views/frontend/event_category/show.php:32
+#: resources/views/frontend/event_tag/show.php:34
+msgid "Start Date"
+msgstr "開始日"
+
+#: resources/views/frontend/event/show.php:48
+#: resources/views/frontend/event_category/show.php:36
+#: resources/views/frontend/event_tag/show.php:38
+msgid "End Date"
+msgstr "終了日"
+
+#: resources/views/frontend/event/show.php:54
+msgid "Time"
+msgstr "時刻"
+
+#: resources/views/frontend/event/show.php:72
+msgid "to"
+msgstr "から"
+
+#: resources/views/frontend/event/show.php:81
+msgid "Event repeated every "
+msgstr "イベントの繰り返し間隔"
+
+#: resources/views/frontend/event/show.php:84
+msgid "day"
+msgstr "日"
+
+#: resources/views/frontend/event/show.php:84
+msgid "days"
+msgstr "日"
+
+#: resources/views/frontend/event/show.php:87
+msgid "week"
+msgstr "週"
+
+#: resources/views/frontend/event/show.php:87
+msgid "weeks"
+msgstr "週"
+
+#: resources/views/frontend/event/show.php:90
+msgid "month"
+msgstr "月"
+
+#: resources/views/frontend/event/show.php:90
+msgid "months"
+msgstr "月"
+
+#: resources/views/frontend/event/show.php:93
+msgid "year"
+msgstr "年"
+
+#: resources/views/frontend/event/show.php:93
+msgid "years"
+msgstr "年"
+
+#: resources/views/frontend/event/show.php:125
+#: resources/views/frontend/event_category/show.php:46
+#: resources/views/frontend/event_tag/show.php:48
+msgid "Description"
+msgstr "解説"
+
+#: resources/views/frontend/event_category/show.php:58
+#: resources/views/frontend/event_tag/show.php:60
+msgid "Nothing found here"
+msgstr "ここでは何も見つかりません"
+
+#: resources/views/frontend/organizer/show.php:18
+msgid "Organizer's Address"
+msgstr "主催者の住所"
+
+#. Plugin URI of the plugin/theme
+msgid "http://grandwp.com"
+msgstr "http://grandwp.com"
+
+#. Description of the plugin/theme
+msgid "GrandWP Calendar is a great plugin for adding specialized Calendar."
+msgstr ""
+"GrandWP Calendarは、特別なカレンダーを追加するための素晴らしいプラグインで"
+"す。"
+
+#. Author of the plugin/theme
+msgid "GrandWP"
+msgstr "GrandWP"
+
+#. Author URI of the plugin/theme
+msgid "http://grandwp.com/"
+msgstr "http://grandwp.com/"

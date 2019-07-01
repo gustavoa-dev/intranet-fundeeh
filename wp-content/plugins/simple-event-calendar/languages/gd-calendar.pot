@@ -1,0 +1,1027 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GrandWP Calendar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-23 14:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: resources/views/admin/meta-boxes/calendar-theme-box.php:16
+#: resources/views/admin/meta-boxes/calendar-view-box.php:12
+#: resources/views/admin/meta-boxes/calendar-view-box.php:29
+msgid "(Pro)"
+msgstr ""
+
+#: Controllers/Admin/ShortcodeController.php:23
+msgid "Add Calendar"
+msgstr ""
+
+#: Controllers/PostTypesController.php:183
+#: Controllers/PostTypesController.php:184
+msgid "Add New Calendar"
+msgstr ""
+
+#: Controllers/PostTypesController.php:131
+msgid "Add New Category"
+msgstr ""
+
+#: Controllers/PostTypesController.php:59
+#: Controllers/PostTypesController.php:60
+msgid "Add New Event"
+msgstr ""
+
+#: Controllers/PostTypesController.php:243
+#: Controllers/PostTypesController.php:244
+msgid "Add New Organizer"
+msgstr ""
+
+#: Controllers/PostTypesController.php:157
+msgid "Add New Tag"
+msgstr ""
+
+#: Controllers/PostTypesController.php:307
+#: Controllers/PostTypesController.php:308
+msgid "Add New Venue"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:20
+msgid "Add organizer"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:20
+msgid "Add venue"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:39
+#: resources/views/admin/meta-boxes/event-venue-box.php:33
+#: resources/views/admin/meta-boxes/event-venue-box.php:34
+#: resources/views/admin/meta-boxes/organizer-box.php:14
+#: resources/views/admin/meta-boxes/venue-box.php:9
+msgid "Address"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/venue-box.php:10
+msgid "Address..."
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:118
+msgid "After"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/calendar-settings-select-box.php:21
+#: resources/views/admin/meta-boxes/calendar-view-box.php:16
+msgid "All"
+msgstr ""
+
+#: Controllers/PostTypesController.php:126
+msgid "All Categories"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:8
+msgid "All Day"
+msgstr ""
+
+#: resources/views/frontend/calendar/day.php:123
+#: resources/views/frontend/calendar/events.php:84
+#: resources/views/frontend/calendar/events.php:250
+#: resources/views/frontend/calendar/week.php:164
+msgid "All day"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:86
+msgid "all day"
+msgstr ""
+
+#: Controllers/Admin/AjaxController.php:170
+msgid "All fields required."
+msgstr ""
+
+#: Controllers/PostTypesController.php:152
+msgid "All Tags"
+msgstr ""
+
+#: resources/views/admin/ask-for-review.php:18
+msgid "Already Left :)"
+msgstr ""
+
+#: Helpers/Currencies.php:11
+msgid "Argentine Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:13
+msgid "Armenian Dram"
+msgstr ""
+
+#: Helpers/Currencies.php:12
+msgid "Australian Dollars"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:21
+#: resources/views/admin/meta-boxes/event-venue-box.php:21
+msgid "Back"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:51
+msgid "Back to calendar"
+msgstr ""
+
+#: Helpers/Currencies.php:14
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:117
+msgid "Before"
+msgstr ""
+
+#: Helpers/Currencies.php:15
+msgid "Brazilian Real"
+msgstr ""
+
+#: Helpers/Currencies.php:16
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: Controllers/PostTypesController.php:181
+msgid "Calendar"
+msgstr ""
+
+#: Controllers/PostTypesController.php:180
+#: Controllers/PostTypesController.php:182
+msgid "Calendars"
+msgstr ""
+
+#: Helpers/Currencies.php:17
+msgid "Canadian Dollars"
+msgstr ""
+
+#: resources/views/admin/inline-popup.php:20
+msgid "Cancel"
+msgstr ""
+
+#: Controllers/PostTypesController.php:123
+msgctxt "categories"
+msgid "Event Categories"
+msgstr ""
+
+#: Controllers/PostTypesController.php:124
+msgctxt "category"
+msgid "Event Category"
+msgstr ""
+
+#: Helpers/Currencies.php:18
+msgid "Chilean Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:19
+msgid "Chinese Yuan"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:54
+msgid "Choose"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:9
+msgid "Choose location"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:7
+msgid "Choose View"
+msgstr ""
+
+#: Helpers/Currencies.php:20
+msgid "Colombian Peso"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:98
+#: resources/views/frontend/event/show.php:120
+msgid "Cost"
+msgstr ""
+
+#: resources/views/admin/inline-popup.php:28
+msgid "Create new Calendar"
+msgstr ""
+
+#: Helpers/Currencies.php:26
+msgid "Croatia kuna"
+msgstr ""
+
+#: resources/views/frontend/calendar/week.php:54
+msgid "CW"
+msgstr ""
+
+#: Helpers/Currencies.php:21
+msgid "Czech Koruna"
+msgstr ""
+
+#: Helpers/Currencies.php:22
+msgid "Danish Krone"
+msgstr ""
+
+#: Controllers/Admin/AdminController.php:132
+#: resources/views/frontend/calendar/show.php:74
+msgid "Date"
+msgstr ""
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:86
+#: resources/views/frontend/calendar/show.php:80
+msgid "Day"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:103
+msgid "day"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:103
+msgid "days"
+msgstr ""
+
+#: Controllers/Admin/AdminController.php:150
+msgid "Default Theme"
+msgstr ""
+
+#: resources/views/admin/calendar-featured-plugins.php:13
+#: resources/views/admin/calendar-featured-plugins.php:29
+#: resources/views/admin/calendar-featured-plugins.php:41
+#: resources/views/admin/top-banner.php:47
+msgid "Demo"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:142
+#: resources/views/frontend/event_category/show.php:46
+#: resources/views/frontend/event_tag/show.php:48
+msgid "Description"
+msgstr ""
+
+#: Helpers/Currencies.php:23
+msgid "Dominican Peso"
+msgstr ""
+
+#: resources/views/admin/ask-for-review.php:24
+msgid "Don't Show This!"
+msgstr ""
+
+#: Controllers/PostTypesController.php:185
+msgid "Edit Calendar"
+msgstr ""
+
+#: Controllers/PostTypesController.php:129
+msgid "Edit Category"
+msgstr ""
+
+#: Controllers/PostTypesController.php:62
+msgid "Edit Event"
+msgstr ""
+
+#: Controllers/PostTypesController.php:245
+msgid "Edit Organizer"
+msgstr ""
+
+#: Controllers/PostTypesController.php:155
+msgid "Edit Tag"
+msgstr ""
+
+#: Controllers/PostTypesController.php:309
+msgid "Edit Venue"
+msgstr ""
+
+#: Helpers/Currencies.php:57
+msgid "Egyptian Pound"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:59
+#: resources/views/admin/meta-boxes/organizer-box.php:34
+#: resources/views/frontend/organizer/show.php:26
+msgid "Email"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:24
+msgid "End"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:67
+#: resources/views/frontend/event_category/show.php:36
+#: resources/views/frontend/event_tag/show.php:38
+msgid "End Date"
+msgstr ""
+
+#: resources/views/frontend/calendar/day.php:145
+#: resources/views/frontend/calendar/day.php:166
+#: resources/views/frontend/calendar/one-event.php:27
+#: resources/views/frontend/calendar/week.php:186
+#: resources/views/frontend/calendar/week.php:199
+msgid "Ends"
+msgstr ""
+
+#: Helpers/Currencies.php:24
+msgid "Euros"
+msgstr ""
+
+#: Controllers/PostTypesController.php:57
+msgid "Event"
+msgstr ""
+
+#: Controllers/PostTypesController.php:133
+msgid "Event Categories"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:100
+msgid "Event repeated every "
+msgstr ""
+
+#: Controllers/PostTypesController.php:159
+msgid "Event Tags"
+msgstr ""
+
+#: Controllers/PostTypesController.php:56
+#: Controllers/PostTypesController.php:58
+msgid "Events"
+msgstr ""
+
+#: Controllers/Admin/AdminController.php:129
+msgid "Featured Image"
+msgstr ""
+
+#: Controllers/Admin/AdminController.php:121
+msgid "Featured plugins"
+msgstr ""
+
+#: resources/views/admin/calendar-featured-plugins.php:21
+msgid ""
+"Forms -  Grand Forms plugin is a freemium contact form plugin for WordPress."
+"It can be used to\n"
+"            create highly interactive form with very little effort.   It "
+"allows you to quickly create beautiful contact forms and comes with all the\n"
+"            goodies you would need from a premium form plugin. Quickly build "
+"complex forms, for everything from complex quotes to booking forms and\n"
+"            contact forms. And you can do all this without touching any code."
+" Create multiple forms, and customize confirmation emails. It includes "
+"extra\n"
+"            fields of any type and also supports Akismet and CAPTCHA. "
+msgstr ""
+
+#: Controllers/Frontend/EventsController.php:48
+msgid "FREE"
+msgstr ""
+
+#: resources/views/admin/calendar-featured-plugins.php:37
+msgid ""
+"Gallery -  GrandWP Gallery is the right thing to have if you are looking for "
+"a tool to display images in a creative way. Various adjustable options to "
+"make galleries even more personalized. GrandWP Gallery plugin stands for "
+"intuitive and modern design combined with high functionality. We have "
+"gathered all essential options in one tool to meet all kind of requirements."
+msgstr ""
+
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:21
+msgid "General options"
+msgstr ""
+
+#: resources/views/admin/top-banner.php:53
+msgid "Go Pro"
+msgstr ""
+
+#. Author of the plugin
+msgid "GrandWP"
+msgstr ""
+
+#. Name of the plugin
+#: Controllers/Widgets/CalendarWidgetController.php:13
+msgid "GrandWP Calendar"
+msgstr ""
+
+#. Description of the plugin
+msgid "GrandWP Calendar is a great plugin for adding specialized Calendar."
+msgstr ""
+
+#: resources/views/admin/calendar-featured-plugins.php:20
+msgid "GrandWP Forms"
+msgstr ""
+
+#: resources/views/admin/calendar-featured-plugins.php:36
+msgid "GrandWP Gallery"
+msgstr ""
+
+#: resources/views/admin/calendar-featured-plugins.php:5
+msgid "GrandWP Lightbox"
+msgstr ""
+
+#: Controllers/Widgets/CalendarWidgetController.php:14
+msgid "GranWP Calendar"
+msgstr ""
+
+#: resources/views/admin/top-banner.php:56
+msgid "Help"
+msgstr ""
+
+#: Helpers/Currencies.php:25
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://grandwp.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://grandwp.com/"
+msgstr ""
+
+#: Helpers/Currencies.php:27
+msgid "Hungarian Forint"
+msgstr ""
+
+#: Helpers/Currencies.php:28
+msgid "Icelandic krona"
+msgstr ""
+
+#: Helpers/Currencies.php:30
+msgid "Indian Rupee"
+msgstr ""
+
+#: Helpers/Currencies.php:29
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: Controllers/Admin/ShortcodeController.php:22
+#: resources/views/admin/inline-popup.php:19
+msgid "Insert Calendar"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:49
+#: resources/views/admin/meta-boxes/organizer-box.php:24
+msgid "Invalid number"
+msgstr ""
+
+#: Helpers/Currencies.php:32
+msgid "Israeli Shekel"
+msgstr ""
+
+#: Helpers/Currencies.php:33
+msgid "Japanese Yen"
+msgstr ""
+
+#: Helpers/Currencies.php:34
+msgid "Lao Kip"
+msgstr ""
+
+#: resources/views/admin/calendar-featured-plugins.php:6
+msgid ""
+"Lightbox - Grand Lightbox is offering a quick and simple lightbox for your "
+"pages and posts. \n"
+"            It comes with friendly appearance and wide range of settings as "
+"the aforementioned plugins, but if you’re looking for a minimalist way of \n"
+"            opening your images in a lightbox style, you’ll love this one. "
+"GrandLightbox allows you to add beautiful features. You can display an image "
+"\n"
+"            separately or in a slideshow, and you can also set the "
+"transitions, animations, slideshows’ speed, overlay opacity, etc."
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:7
+#: resources/views/frontend/event/show.php:135
+#: resources/views/frontend/venue/show.php:13
+msgid "Location"
+msgstr ""
+
+#: Helpers/Currencies.php:36
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: resources/views/admin/ask-for-review.php:21
+msgid "Maybe Later"
+msgstr ""
+
+#: Controllers/Admin/AjaxController.php:178
+msgid "Message via calendar contact us"
+msgstr ""
+
+#: Helpers/Currencies.php:37
+msgid "Mexican Peso"
+msgstr ""
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:88
+#: resources/views/frontend/calendar/show.php:86
+msgid "Month"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:109
+msgid "month"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:109
+msgid "months"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:26
+#: resources/views/admin/meta-boxes/event-venue-box.php:26
+#: resources/views/admin/meta-boxes/organizer-box.php:8
+#: resources/views/frontend/organizer/show.php:14
+msgid "Name"
+msgstr ""
+
+#: Helpers/Currencies.php:31
+msgid "Nepali Rupee"
+msgstr ""
+
+#: Controllers/PostTypesController.php:186
+msgid "New Calendar"
+msgstr ""
+
+#: Controllers/PostTypesController.php:132
+msgid "New Category Name"
+msgstr ""
+
+#: Controllers/PostTypesController.php:61
+msgid "New Event"
+msgstr ""
+
+#: Controllers/PostTypesController.php:246
+msgid "New Organizer"
+msgstr ""
+
+#: Controllers/PostTypesController.php:158
+msgid "New Tag Name"
+msgstr ""
+
+#: Controllers/PostTypesController.php:310
+msgid "New Venue"
+msgstr ""
+
+#: Helpers/Currencies.php:40
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:38
+msgid "Nigerian Naira"
+msgstr ""
+
+#: Controllers/PostTypesController.php:190
+msgid "No calendars found"
+msgstr ""
+
+#: Controllers/PostTypesController.php:191
+msgid "No calendars found in Trash"
+msgstr ""
+
+#: Controllers/PostTypesController.php:66
+msgid "No events found"
+msgstr ""
+
+#: Controllers/PostTypesController.php:67
+msgid "No events found in Trash"
+msgstr ""
+
+#: Controllers/PostTypesController.php:250
+msgid "No organizers found"
+msgstr ""
+
+#: Controllers/PostTypesController.php:251
+msgid "No organizers found in Trash"
+msgstr ""
+
+#: resources/views/frontend/calendar/day.php:47
+#: resources/views/frontend/calendar/month.php:32
+#: resources/views/frontend/calendar/week.php:45
+msgid "No results found"
+msgstr ""
+
+#: Controllers/PostTypesController.php:314
+msgid "No venues found"
+msgstr ""
+
+#: Controllers/PostTypesController.php:315
+msgid "No venues found in Trash"
+msgstr ""
+
+#: Helpers/Currencies.php:39
+msgid "Norwegian Krone"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:62
+msgid "Not a valid email address"
+msgstr ""
+
+#: resources/views/frontend/event_category/show.php:58
+#: resources/views/frontend/event_tag/show.php:60
+msgid "Nothing found here"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:33
+#: resources/views/frontend/event/show.php:151
+msgid "Organized by"
+msgstr ""
+
+#: Controllers/PostTypesController.php:241
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:39
+#: resources/views/admin/meta-boxes/event-organizer-box.php:7
+msgid "Organizer"
+msgstr ""
+
+#: resources/views/frontend/organizer/show.php:18
+msgid "Organizer's Address"
+msgstr ""
+
+#: Controllers/PostTypesController.php:240
+#: Controllers/PostTypesController.php:242
+#: Controllers/Admin/MetaBoxes/OrganizerMetaBoxesController.php:24
+#: resources/views/frontend/event/show.php:148
+msgid "Organizers"
+msgstr ""
+
+#: Helpers/Currencies.php:41
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: Controllers/PostTypesController.php:127
+msgid "Parent Category"
+msgstr ""
+
+#: Controllers/PostTypesController.php:128
+msgid "Parent Category:"
+msgstr ""
+
+#: Controllers/PostTypesController.php:153
+msgid "Parent Tag"
+msgstr ""
+
+#: Controllers/PostTypesController.php:154
+msgid "Parent Tag:"
+msgstr ""
+
+#: Helpers/Currencies.php:42
+msgid "Philippine Pesos"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:45
+#: resources/views/admin/meta-boxes/organizer-box.php:20
+#: resources/views/frontend/organizer/show.php:22
+msgid "Phone"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/calendar-sidebar-box.php:11
+msgid "PHP Code"
+msgstr ""
+
+#: Controllers/Admin/AjaxController.php:174
+#: Controllers/Admin/AjaxController.php:203
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:27
+msgid "Please fill end date"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:29
+#: resources/views/admin/meta-boxes/event-venue-box.php:29
+msgid "Please fill name field"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:20
+msgid "Please fill start date"
+msgstr ""
+
+#: Helpers/Currencies.php:43
+msgid "Polish Zloty"
+msgstr ""
+
+#: Helpers/Currencies.php:44
+msgid "Pounds Sterling"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:52
+msgid "Rate"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:48
+#: resources/views/frontend/event/show.php:98
+msgid "Repeat"
+msgstr ""
+
+#: Helpers/Currencies.php:45
+msgid "Romanian Leu"
+msgstr ""
+
+#: Helpers/Currencies.php:46
+msgid "Russian Ruble"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:69
+#: resources/views/admin/meta-boxes/event-venue-box.php:45
+msgid "Save"
+msgstr ""
+
+#: Controllers/PostTypesController.php:189
+msgid "Search Calendar"
+msgstr ""
+
+#: Controllers/PostTypesController.php:125
+msgid "Search Category"
+msgstr ""
+
+#: Controllers/PostTypesController.php:65
+msgid "Search Event"
+msgstr ""
+
+#: Controllers/PostTypesController.php:249
+msgid "Search Organizer"
+msgstr ""
+
+#: Controllers/PostTypesController.php:151
+msgid "Search Tags"
+msgstr ""
+
+#: Controllers/PostTypesController.php:313
+msgid "Search Venue"
+msgstr ""
+
+#: Controllers/Widgets/CalendarWidgetController.php:48
+msgid "Select calendar:"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:104
+msgid "Select Currency"
+msgstr ""
+
+#: resources/views/admin/inline-popup.php:9
+msgid "Select the calendar to embed"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/calendar-theme-box.php:7
+msgid "Select Theme"
+msgstr ""
+
+#: Controllers/Admin/AdminController.php:120
+msgid "Settings"
+msgstr ""
+
+#: Controllers/Admin/AdminController.php:130
+msgid "Shortcode"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/calendar-settings-select-box.php:10
+msgid "Show events by"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:10
+msgid "Sidebar"
+msgstr ""
+
+#: Helpers/Currencies.php:47
+msgid "Singapore Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:48
+msgid "South African rand"
+msgstr ""
+
+#: Helpers/Currencies.php:35
+msgid "South Korean Won"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:17
+msgid "Start"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:63
+#: resources/views/frontend/event_category/show.php:32
+#: resources/views/frontend/event_tag/show.php:34
+msgid "Start Date"
+msgstr ""
+
+#: resources/views/frontend/calendar/day.php:144
+#: resources/views/frontend/calendar/day.php:165
+#: resources/views/frontend/calendar/one-event.php:26
+#: resources/views/frontend/calendar/week.php:185
+#: resources/views/frontend/calendar/week.php:198
+msgid "Starts"
+msgstr ""
+
+#: resources/views/admin/calendar-settings.php:10
+msgid "Subscribe"
+msgstr ""
+
+#: resources/views/admin/top-banner.php:50
+msgid "Support Forum"
+msgstr ""
+
+#: resources/views/admin/ask-for-review.php:15
+msgid "Sure!"
+msgstr ""
+
+#: Helpers/Currencies.php:49
+msgid "Swedish Krona"
+msgstr ""
+
+#: Helpers/Currencies.php:50
+msgid "Swiss Franc"
+msgstr ""
+
+#: Controllers/PostTypesController.php:150
+msgctxt "tag"
+msgid "Event Tag"
+msgstr ""
+
+#: Controllers/PostTypesController.php:149
+msgctxt "tags"
+msgid "Event Tags"
+msgstr ""
+
+#: Helpers/Currencies.php:51
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:52
+msgid "Thai Baht"
+msgstr ""
+
+#: Controllers/Admin/AdminController.php:131
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:35
+msgid "Theme"
+msgstr ""
+
+#: Controllers/Admin/AdminController.php:119
+msgid "Themes"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:73
+msgid "Time"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:33
+msgid "Timezone"
+msgstr ""
+
+#: Controllers/Admin/AdminController.php:128
+msgid "Title"
+msgstr ""
+
+#: Controllers/Admin/AdminAssetsController.php:86
+msgid "Title is required field"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:91
+msgid "to"
+msgstr ""
+
+#: resources/views/admin/calendar-featured-plugins.php:12
+#: resources/views/admin/calendar-featured-plugins.php:28
+#: resources/views/admin/calendar-featured-plugins.php:40
+msgid "Try Free"
+msgstr ""
+
+#: Helpers/Currencies.php:53
+msgid "Turkish Lira"
+msgstr ""
+
+#: Helpers/Currencies.php:10
+msgid "UAE Dirham"
+msgstr ""
+
+#: Helpers/Currencies.php:54
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: Controllers/PostTypesController.php:130
+msgid "Update Category"
+msgstr ""
+
+#: Controllers/PostTypesController.php:156
+msgid "Update Tag"
+msgstr ""
+
+#: Helpers/Currencies.php:55
+msgid "US Dollars"
+msgstr ""
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:42
+msgid "Usage"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:48
+#: resources/views/admin/meta-boxes/organizer-box.php:23
+msgid "Valid"
+msgstr ""
+
+#: Controllers/PostTypesController.php:305
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:30
+#: Controllers/Admin/MetaBoxes/VenueMetaBoxesController.php:20
+msgid "Venue"
+msgstr ""
+
+#: Controllers/PostTypesController.php:304
+#: Controllers/PostTypesController.php:306
+msgid "Venues"
+msgstr ""
+
+#: Helpers/Currencies.php:56
+msgid "Vietse Dong"
+msgstr ""
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:28
+msgid "View"
+msgstr ""
+
+#: resources/views/frontend/calendar/more-event.php:2
+#: resources/views/frontend/calendar/week.php:214
+msgid "View all"
+msgstr ""
+
+#: Controllers/PostTypesController.php:187
+msgid "View Calendar"
+msgstr ""
+
+#: Controllers/PostTypesController.php:188
+msgid "View Calendars"
+msgstr ""
+
+#: Controllers/PostTypesController.php:63
+msgid "View Event"
+msgstr ""
+
+#: Controllers/PostTypesController.php:64
+msgid "View Events"
+msgstr ""
+
+#: Controllers/PostTypesController.php:247
+msgid "View Organizer"
+msgstr ""
+
+#: Controllers/PostTypesController.php:248
+msgid "View Organizers"
+msgstr ""
+
+#: Controllers/PostTypesController.php:311
+msgid "View Venue"
+msgstr ""
+
+#: Controllers/PostTypesController.php:312
+msgid "View Venues"
+msgstr ""
+
+#: resources/views/admin/ask-for-review.php:9
+msgid ""
+"We hope you’ve enjoyed using GrandWP Event Calendar plugin! Would you "
+"consider leaving us a review on WordPress?"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:53
+#: resources/views/admin/meta-boxes/organizer-box.php:28
+#: resources/views/frontend/organizer/show.php:30
+msgid "Website"
+msgstr ""
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:87
+#: resources/views/frontend/calendar/show.php:83
+msgid "Week"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:106
+msgid "week"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:106
+msgid "weeks"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/event-time-box.php:28
+msgid "Wrong end date given"
+msgstr ""
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:29
+msgid "Year"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:112
+msgid "year"
+msgstr ""
+
+#: resources/views/frontend/event/show.php:112
+msgid "years"
+msgstr ""
+
+#: resources/views/admin/inline-popup.php:26
+msgid "You have not created any calendars"
+msgstr ""
+
+#: Controllers/Admin/AjaxController.php:218
+msgid "You successfully subscribed. Thanks!"
+msgstr ""
+
+#: resources/views/admin/calendar-settings.php:8
+msgid "your e-mail..."
+msgstr ""
+
+#: Controllers/Admin/AjaxController.php:188
+msgid "Your email was sent to the website administrator. Thanks!"
+msgstr ""
+
+#: resources/views/admin/ask-for-review.php:6
+msgid "Your opinion matters! Leave a Review!"
+msgstr ""

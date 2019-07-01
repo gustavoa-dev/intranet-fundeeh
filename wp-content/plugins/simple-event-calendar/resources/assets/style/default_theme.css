@@ -1,0 +1,62 @@
+.gd_calendar_event_view_box button{
+    background-color: #ebebeb;
+}
+.gd_calendar_event_view_box button:hover{
+    background-color: #f3822f;
+}
+.gd_calendar_small_date, button.gd_calendar_active_view,button.gd_calendar_active_view:hover,
+button.gd_calendar_active_view:focus,button.gd_calendar_active_view:active,
+p.gd_calendar_current_date, div.gd_calendar_current_date_small,
+.current_day_week, p.gd_calendar_year_current_date{
+    background-color: #f3822f;
+}
+.gd_calendar_sidebar{
+    background-color: #333;
+}
+.gd_calendar_today, .gd_calendar_week_number, .gd_calendar_year_title, div.gd_calendar_see_all .gd_calendar_week_more_events,
+div.gd_calendar_see_all .gd_calendar_month_more_events{
+    color: #f3822f;
+}
+.current_month_color{
+    color: #f3822f !important;
+}
+.gd_calendar_sidebar .circle_first, .gd_calendar_table .circle_first, .gd_calendar_year_table .circle_first {
+    background-color: #0f0;
+}
+.gd_calendar_sidebar .circle_second, .gd_calendar_table .circle_second, .gd_calendar_year_table .circle_second {
+    background-color: #f0f;
+}
+.gd_calendar_sidebar .circle_third, .gd_calendar_table .circle_third, .gd_calendar_year_table .circle_third {
+    background-color: #00aeef;
+}
+.gd_calendar_list .background_first, .gd_calendar_week_table .background_first, .gd_calendar_table .background_first{
+    background-color: #dbffdb;
+}
+.gd_calendar_list .background_second, .gd_calendar_week_table .background_second, .gd_calendar_table .background_second{
+    background-color: #ffccff;
+}
+.gd_calendar_list .background_third, .gd_calendar_week_table .background_third, .gd_calendar_table .background_third{
+    background-color: #cceffc;
+}
+.gd_calendar_list .background_first, .gd_calendar_week_table .background_first{
+    border-left: 3px solid #00ff00;
+}
+.gd_calendar_list .background_second, .gd_calendar_week_table .background_second{
+    border-left: 3px solid #ff00ff;
+}
+.gd_calendar_list .background_third, .gd_calendar_week_table .background_third{
+    border-left: 3px solid #00aeef;
+}
+.gd_calendar_week_cell .gd_calendar_first_column, .gd_calendar_week_cell .gd_calendar_last_column,
+.gd_calendar_list .gd_calendar_first_column, .gd_calendar_list .gd_calendar_last_column{
+    background: #f9f9f9;
+}
+.ui-widget button {
+    background: #f3822f !important;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight{
+    background: #f3822f;
+}
+.ui-state-active, .ui-widget-content .ui-state-active{
+    background: #f1be84;
+}

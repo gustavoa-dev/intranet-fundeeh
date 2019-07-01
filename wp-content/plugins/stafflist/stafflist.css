@@ -1,0 +1,326 @@
+/*************************************************
+*	=Global
+**************************************************/
+.staffwrapper {
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-size: 13px;
+	position: relative;
+	width: 100%;
+}
+/*************************************************
+*	=Type
+**************************************************/
+.staffdirectory .stafflists p {
+	overflow:hidden;
+	margin: 5px 0;
+	float:left;
+	font-weight:bold;
+	clear: left;
+}
+.staffdirectory .stafflists a,
+.staffdirectory th {
+	color: #555;
+}
+.staffdirectory .stafflists td.stafflist_noresults {
+	height: 60px;
+	padding: 10px;
+}
+/*************************************************
+*	=Pager
+**************************************************/
+.staffwrapper .pagerblock {
+	position: absolute;
+	right: 0;
+	margin: 5px 10px 0 0;
+}
+.staffdirectory .staffpager {
+	min-height: 21px;
+}
+.staffdirectory p.pager {
+	width:18px;
+	height:14px;
+	background-color:#DDD;
+	display:block;
+	text-decoration: none;
+	text-align:center;
+	float:left;
+	margin: 0 2px 0 1px;
+	padding:0 0 2px 0;
+	min-height: 20px;
+	color: #888;
+	font: normal normal 11px/20px sans-serif;
+	border: none;
+	text-indent: 0;
+	cursor: pointer;
+}
+.staffdirectory .pageNum {
+	padding-left: 5px;
+	font: normal normal 11px/20px sans-serif;
+	line-height: 20px;
+	display: inline-block;
+}
+.staffdirectory p.pager.disabled {
+	cursor: default;
+}
+.staffdirectory p.pager.current {
+	background: #B74327;
+}
+.staffdirectory p.pager.current, p.pager.current:hover {
+	color: #FFF;
+}
+.staffdirectory p.pager:not(.disabled):hover {
+	background-color: #888;
+	color: #FFF;
+}
+.staffdirectory p.pager.wp-exclude-emoji.prev:after {
+	content:'\25C0';
+}
+.staffdirectory p.pager.wp-exclude-emoji.next:after {
+	content:'\25BA';
+}
+.staffdirectory p.pager.wp-exclude-emoji {
+	background: #FBFBFB;
+	color: #AAA;
+	font-size: 13px;
+	margin: 0 -2px;
+}
+.staffdirectory p.pager.wp-exclude-emoji:hover {
+	background: #FBFBFB;
+	color: #888;
+	font-size: 13px;
+	margin: 0 -2px;
+}
+/*************************************************
+*	=Search
+**************************************************/
+.staffwrapper .sl_search {
+	outline: none;
+	font-size: .65rem;
+	min-width: 112px;
+	min-height: 27px;
+	display: inline-block;
+}
+label#searchDirectory {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.search-clear, .search-clear:hover, .search-clear:active, .search-clear:focus {
+	background: transparent;
+	width: 20px;
+	height: 27px;
+	position: absolute;
+	border: 1px solid transparent;
+	padding: 0;
+	right: 0;
+	top: 0;
+	z-index: 2;
+	opacity: .5;
+	outline: none;
+	outline-width: 0;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	display: none;
+}
+.search-clear:hover, .search-clear:active {
+	opacity: 1;
+}
+.search-clear svg {
+	width: 8px;
+	height: 8px;
+}
+/*************************************************
+*	=Directory
+**************************************************/
+.staffdirectory {
+	font-family: "Lucida Grande", Arial, sans-serif;
+	overflow:auto;
+	padding:8px;
+	background-color: #FBFBFB;
+	border:1px solid #E8E8E8;
+	margin-top:20px;
+	min-height: 20px;
+	-webkit-box-shadow: 0 0 8px rgba(0,0,0, .05);
+	-moz-box-shadow: 	0 0 8px rgba(0,0,0, .05);
+	box-shadow: 		0 0 8px rgba(0,0,0, .05);
+}
+.staffdirectory .stafflists {
+	margin: 5px 0;
+}
+/*************************************************
+*	=Tables
+**************************************************/
+.staffdirectory .stafflists tr {
+	border: 1px solid #f0f0f0;
+	border-left: none;
+}
+.staffdirectory .stafflists td {
+	font-size: 12px;
+	color: #555;
+	border: 0;
+	vertical-align: middle;
+	white-space: nowrap;
+	text-align: left;
+	padding: 0 .5rem 0 .2rem;
+}
+.staffdirectory .stafflists tbody a:hover, .stafflists strong {
+	color: #B74327;
+	text-decoration: none;
+	border-bottom: 1px #B74327 dotted;
+}
+.staffdirectory .stafflists {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+.staffdirectory tr:nth-child(2n+1){
+  background-color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+	border-left: none;
+}
+.staffdirectory .stafflisthead tr, .stafflisthead tr th {
+	height: 30px;
+	background-color: #E0DEDE;
+	font-weight: bold;
+	padding:0;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.staffdirectory .stafflisthead tr th {
+	text-align:left;
+	padding: 0 19px 0 5px;
+	position: relative;
+	border: 1px solid #f0f0f0;
+	border-left: none;
+}
+.staffdirectory tr.row {
+	height: 70px;
+}
+/*************************************************
+*	=Sorting
+**************************************************/
+.staffdirectory .sort_a, .staffdirectory .sort_d {
+	width: 9px;
+	height: 9px;
+	display: inline-block;
+	margin: 0 2px;
+	position: absolute;
+	right: 5px;
+	overflow: hidden;
+	text-indent: -99999px;
+}
+.staffdirectory .sort_a {
+	background-position: 9px 0;
+	top: 6px;
+}
+.staffdirectory .sort_d {
+	background-position: 9px 9px;
+	bottom: 6px;
+}
+.staffdirectory .sort_a.selected {
+	background-position: 0 0;
+}
+.staffdirectory .sort_d.selected {
+	background-position: 0 9px;
+}
+.staffdirectory .sort_a {
+	background-image: url(img/sort.gif);
+}
+.staffdirectory .sort_d {
+	background-image: url(img/sort.gif);
+}
+/*************************************************
+*	=Tips
+**************************************************/
+.staffdirectory a {
+	color: #555;
+    text-decoration:none;
+}
+.staffdirectory a:hover,
+.staffdirectory p.contactcard:hover {
+	color: #B74327;
+    text-decoration:none;
+}
+.staffdirectory a svg {
+	fill: currentColor;
+    text-decoration:none;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+/*************************************************
+*	=Tips
+**************************************************/
+.staffdirectory p.contactcard {
+	color: #555;
+	text-decoration:none;
+	margin: 4px 0px 3px 0;
+}
+table.stafflists th.hdrcard {
+	color: #555;
+	text-decoration:none;
+	margin: 0;
+	opacity: 0.3;
+}
+.staffdirectory p.contactcard svg {
+	fill: currentColor;
+    text-decoration:none;
+    width: 28px;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+}
+table.stafflists th.hdrcard svg {
+	fill: currentColor;
+    text-decoration:none;
+    width: 24px;
+    height: 20px;
+    display: block;
+}
+
+.sl_property {
+	display: inline-block;
+	font-weight: bolder;
+}
+.tipsy { 
+	font-size: 11px; 
+	position: absolute; 
+	padding: 0 0 10px 0; 
+	z-index: 100000;
+	background-color: #B74327; 
+	margin-left: 5px;
+}
+.tipsy strong {
+	border-bottom: 1px dotted #b74327;
+}
+.tipsy-inner { 	
+	background-color: #E4E4E4;
+	color: #535351; 
+	max-width: 300px; 
+	padding: 5px 8px 0 8px; 
+	border: 1px solid #B1B1B1; 
+}
+.tipsy-arrow { 	position: absolute;
+	width: 0; height: 0; 
+	line-height: 0; 
+	border: 5px dashed #000;
+	margin-left:-5px; 
+}
+.tipsy-arrow-w { 
+	border-right-color: #B1B1B1; 
+}
+.tipsy-w .tipsy-arrow { 
+	left: 0; 
+	top: 50%; 
+	margin-top: -5px; 
+	border-right-style: solid; 
+	border-left: none; 
+	border-top-color: transparent; 
+	border-bottom-color: transparent; 
+}

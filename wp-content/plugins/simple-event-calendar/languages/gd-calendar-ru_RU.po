@@ -1,0 +1,1000 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GrandWP Calendar\n"
+"POT-Creation-Date: 2018-09-10 15:47+0400\n"
+"PO-Revision-Date: 2018-09-10 18:00+0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: Controllers/Admin/AdminAssetsController.php:87
+msgid "Title is required field"
+msgstr "Обязательное поле"
+
+#: Controllers/Admin/AdminController.php:119
+msgid "Themes"
+msgstr "Темы"
+
+#: Controllers/Admin/AdminController.php:121
+msgid "Featured Plugins"
+msgstr "Рекомендуемые плагины"
+
+#: Controllers/Admin/AdminController.php:128
+msgid "Title"
+msgstr "Заголовок"
+
+#: Controllers/Admin/AdminController.php:129
+msgid "Featured Image"
+msgstr "Изображение"
+
+#: Controllers/Admin/AdminController.php:130
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: Controllers/Admin/AdminController.php:131
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:35
+msgid "Theme"
+msgstr "Тема"
+
+#: Controllers/Admin/AdminController.php:132
+#: resources/views/frontend/calendar/show.php:74
+msgid "Date"
+msgstr "Дата"
+
+#: Controllers/Admin/AdminController.php:150
+msgid "Default Theme"
+msgstr "Тема по умолчанию"
+
+#: Controllers/Admin/AjaxController.php:170
+msgid "All fields required."
+msgstr "Поля обязательны для заполнения"
+
+#: Controllers/Admin/AjaxController.php:174
+#: Controllers/Admin/AjaxController.php:203
+msgid "Please enter a valid email address."
+msgstr "Пожалуйста, введите действительный адрес эл. почты."
+
+#: Controllers/Admin/AjaxController.php:178
+msgid "Message via calendar contact us"
+msgstr ""
+
+#: Controllers/Admin/AjaxController.php:179
+msgid "Reply-To: "
+msgstr "Ответить"
+
+#: Controllers/Admin/AjaxController.php:180
+msgid "Message: "
+msgstr "Сообщение"
+
+#: Controllers/Admin/AjaxController.php:188
+msgid "Your email was sent to the website administrator. Thanks!"
+msgstr "Ваше сообщение отправлено администратору веб-сайта. Спасибо!"
+
+#: Controllers/Admin/AjaxController.php:218
+msgid "You successfully subscribed. Thanks!"
+msgstr "Успешно отправлено. Спасибо!"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:28
+msgid "Calendar View"
+msgstr "Вид Календаря"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:42
+msgid "Publish With ShortCodes"
+msgstr "Опубликовать с помощью шорткода"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:86
+#: resources/views/frontend/calendar/show.php:80
+msgid "Day"
+msgstr "День"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:87
+#: resources/views/frontend/calendar/show.php:83
+msgid "Week"
+msgstr "Неделя"
+
+#: Controllers/Admin/MetaBoxes/CalendarMetaBoxesController.php:88
+#: resources/views/frontend/calendar/show.php:86
+msgid "Month"
+msgstr "Месяц"
+
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:21
+msgid "General options"
+msgstr "Общие настройки"
+
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:30
+#: Controllers/Admin/MetaBoxes/VenueMetaBoxesController.php:20
+#: Controllers/PostTypesController.php:310
+msgid "Venue"
+msgstr "Локация"
+
+#: Controllers/Admin/MetaBoxes/EventMetaBoxesController.php:39
+#: Controllers/PostTypesController.php:246
+#: resources/views/admin/meta-boxes/event-organizer-box.php:7
+msgid "Organizer"
+msgstr "Организатор"
+
+#: Controllers/Admin/MetaBoxes/OrganizerMetaBoxesController.php:24
+#: Controllers/PostTypesController.php:245
+#: Controllers/PostTypesController.php:247
+#: resources/views/frontend/event/show.php:134
+msgid "Organizers"
+msgstr "Организаторы"
+
+#: Controllers/Admin/ShortcodeController.php:22
+#: resources/views/admin/inline-popup.php:19
+msgid "Insert Calendar"
+msgstr "Вставить Календарь"
+
+#: Controllers/Admin/ShortcodeController.php:23
+msgid "Add Calendar"
+msgstr "Добавить Календарь"
+
+#: Controllers/Frontend/EventsController.php:48
+msgid "FREE"
+msgstr "Бесплатно"
+
+#: Controllers/PostTypesController.php:56
+msgid "Events List"
+msgstr "Список мероприятий"
+
+#. Plugin Name of the plugin/theme
+#: Controllers/PostTypesController.php:57
+#: Controllers/Widgets/CalendarWidgetController.php:13
+msgid "GrandWP Calendar"
+msgstr "GrandWP Календарь "
+
+#: Controllers/PostTypesController.php:58
+msgid "Event"
+msgstr "Мероприятие"
+
+#: Controllers/PostTypesController.php:59
+msgid "Events"
+msgstr "Мероприятия"
+
+#: Controllers/PostTypesController.php:60
+#: Controllers/PostTypesController.php:61
+msgid "Add New Event"
+msgstr "Добавить новое мероприятие"
+
+#: Controllers/PostTypesController.php:62
+msgid "New Event"
+msgstr "Новое мероприятие"
+
+#: Controllers/PostTypesController.php:63
+msgid "Edit Event"
+msgstr "Редактировать мероприятие"
+
+#: Controllers/PostTypesController.php:64
+msgid "View Event"
+msgstr "Просмотр мероприятия"
+
+#: Controllers/PostTypesController.php:65
+msgid "View Events"
+msgstr "Просмотр мероприятий"
+
+#: Controllers/PostTypesController.php:66
+msgid "Search Event"
+msgstr "Поиск мероприятия"
+
+#: Controllers/PostTypesController.php:67
+msgid "No events found"
+msgstr "Мероприятия не найдены"
+
+#: Controllers/PostTypesController.php:68
+msgid "No events found in Trash"
+msgstr "Мероприятия не найдены в корзине"
+
+#: Controllers/PostTypesController.php:127
+msgid "Calendars List"
+msgstr "Список Календаря"
+
+#: Controllers/PostTypesController.php:128
+msgid "Calendar"
+msgstr "Календарь"
+
+#: Controllers/PostTypesController.php:129
+msgid "Calendars"
+msgstr "Календари"
+
+#: Controllers/PostTypesController.php:130
+#: Controllers/PostTypesController.php:131
+msgid "Add New Calendar"
+msgstr "Добавить новый Календарь"
+
+#: Controllers/PostTypesController.php:132
+msgid "Edit Calendar"
+msgstr "Редактировать Календарь"
+
+#: Controllers/PostTypesController.php:133
+msgid "New Calendar"
+msgstr "Новый Календарь"
+
+#: Controllers/PostTypesController.php:134
+msgid "View Calendar"
+msgstr "Просмотр Календаря"
+
+#: Controllers/PostTypesController.php:135
+msgid "View Calendars"
+msgstr "Просмотр Календарей"
+
+#: Controllers/PostTypesController.php:136
+msgid "Search Calendar"
+msgstr "Поиск Календаря"
+
+#: Controllers/PostTypesController.php:137
+msgid "No calendars found"
+msgstr "Календари не найдены"
+
+#: Controllers/PostTypesController.php:138
+msgid "No calendars found in Trash"
+msgstr "Календари не найдены в корзине"
+
+#: Controllers/PostTypesController.php:158
+msgctxt "categories"
+msgid "Event Categories"
+msgstr "Категории Мероприятия"
+
+#: Controllers/PostTypesController.php:159
+msgctxt "category"
+msgid "Event Category"
+msgstr "Категория Мероприятия"
+
+#: Controllers/PostTypesController.php:160
+msgid "Search Category"
+msgstr "Поиск Категории"
+
+#: Controllers/PostTypesController.php:161
+msgid "All Categories"
+msgstr "Все категории"
+
+#: Controllers/PostTypesController.php:162
+msgid "Parent Category"
+msgstr "Родительская Категория"
+
+#: Controllers/PostTypesController.php:163
+msgid "Parent Category:"
+msgstr "Родительская Категория:"
+
+#: Controllers/PostTypesController.php:164
+msgid "Edit Category"
+msgstr "Редактировать Категорию"
+
+#: Controllers/PostTypesController.php:165
+msgid "Update Category"
+msgstr "Обновить категорию"
+
+#: Controllers/PostTypesController.php:166
+msgid "Add New Category"
+msgstr "Добавить Новую Категорию"
+
+#: Controllers/PostTypesController.php:167
+msgid "New Category Name"
+msgstr "Название Новой Категории"
+
+#: Controllers/PostTypesController.php:168
+msgid "Event Categories"
+msgstr "Категории Мероприятия"
+
+#: Controllers/PostTypesController.php:184
+msgctxt "tags"
+msgid "Event Tags"
+msgstr "Теги Мероприятия"
+
+#: Controllers/PostTypesController.php:185
+msgctxt "tag"
+msgid "Event Tag"
+msgstr "Тег Мероприятия"
+
+#: Controllers/PostTypesController.php:186
+msgid "Search Tags"
+msgstr "Поиск тегов"
+
+#: Controllers/PostTypesController.php:187
+msgid "All Tags"
+msgstr "Все теги"
+
+#: Controllers/PostTypesController.php:188
+msgid "Parent Tag"
+msgstr "Родительский тег"
+
+#: Controllers/PostTypesController.php:189
+msgid "Parent Tag:"
+msgstr "Родительский тег:"
+
+#: Controllers/PostTypesController.php:190
+msgid "Edit Tag"
+msgstr "Редактировать тег"
+
+#: Controllers/PostTypesController.php:191
+msgid "Update Tag"
+msgstr "Обновить тег"
+
+#: Controllers/PostTypesController.php:192
+msgid "Add New Tag"
+msgstr "Добавить новый тег"
+
+#: Controllers/PostTypesController.php:193
+msgid "New Tag Name"
+msgstr "Название Нового Тега"
+
+#: Controllers/PostTypesController.php:194
+msgid "Event Tags"
+msgstr "Теги Мероприятия"
+
+#: Controllers/PostTypesController.php:248
+#: Controllers/PostTypesController.php:249
+msgid "Add New Organizer"
+msgstr "Добавить Нового Организатора"
+
+#: Controllers/PostTypesController.php:250
+msgid "Edit Organizer"
+msgstr "Редактировать Организатора"
+
+#: Controllers/PostTypesController.php:251
+msgid "New Organizer"
+msgstr "Новый Организатор"
+
+#: Controllers/PostTypesController.php:252
+msgid "View Organizer"
+msgstr "Просмотр Организатора"
+
+#: Controllers/PostTypesController.php:253
+msgid "View Organizers"
+msgstr "Просмотр Организаторов"
+
+#: Controllers/PostTypesController.php:254
+msgid "Search Organizer"
+msgstr "Поиск Организатора"
+
+#: Controllers/PostTypesController.php:255
+msgid "No organizers found"
+msgstr "Организаторы не найдены"
+
+#: Controllers/PostTypesController.php:256
+msgid "No organizers found in Trash"
+msgstr "Организаторы не найдены в корзине"
+
+#: Controllers/PostTypesController.php:309
+#: Controllers/PostTypesController.php:311
+msgid "Venues"
+msgstr "Локации"
+
+#: Controllers/PostTypesController.php:312
+#: Controllers/PostTypesController.php:313
+msgid "Add New Venue"
+msgstr "Добавить Новую Локацию"
+
+#: Controllers/PostTypesController.php:314
+msgid "Edit Venue"
+msgstr "Редактировать Локацию"
+
+#: Controllers/PostTypesController.php:315
+msgid "New Venue"
+msgstr "Новая Локация"
+
+#: Controllers/PostTypesController.php:316
+msgid "View Venue"
+msgstr "Просмотр Локации"
+
+#: Controllers/PostTypesController.php:317
+msgid "View Venues"
+msgstr "Просмотр Локаций"
+
+#: Controllers/PostTypesController.php:318
+msgid "Search Venue"
+msgstr "Поиск Локации"
+
+#: Controllers/PostTypesController.php:319
+msgid "No venues found"
+msgstr "Локации не найдены"
+
+#: Controllers/PostTypesController.php:320
+msgid "No venues found in Trash"
+msgstr "Локации не найдены в корзине"
+
+#: Controllers/Widgets/CalendarWidgetController.php:14
+msgid "GranWP Calendar"
+msgstr "GrandWP Календарь"
+
+#: Controllers/Widgets/CalendarWidgetController.php:45
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: Controllers/Widgets/CalendarWidgetController.php:48
+msgid "Select calendar:"
+msgstr "Выбрать Календарь"
+
+#: Helpers/Currencies.php:10
+msgid "US Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:11
+msgid "Euros"
+msgstr ""
+
+#: Helpers/Currencies.php:12
+msgid "UAE Dirham"
+msgstr ""
+
+#: Helpers/Currencies.php:13
+msgid "Argentine Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:14
+msgid "Australian Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:15
+msgid "Armenian Dram"
+msgstr ""
+
+#: Helpers/Currencies.php:16
+msgid "Bangladeshi Taka"
+msgstr ""
+
+#: Helpers/Currencies.php:17
+msgid "Brazilian Real"
+msgstr ""
+
+#: Helpers/Currencies.php:18
+msgid "Bulgarian Lev"
+msgstr ""
+
+#: Helpers/Currencies.php:19
+msgid "Canadian Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:20
+msgid "Chilean Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:21
+msgid "Chinese Yuan"
+msgstr ""
+
+#: Helpers/Currencies.php:22
+msgid "Colombian Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:23
+msgid "Czech Koruna"
+msgstr ""
+
+#: Helpers/Currencies.php:24
+msgid "Danish Krone"
+msgstr ""
+
+#: Helpers/Currencies.php:25
+msgid "Dominican Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:26
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:27
+msgid "Croatia kuna"
+msgstr ""
+
+#: Helpers/Currencies.php:28
+msgid "Hungarian Forint"
+msgstr ""
+
+#: Helpers/Currencies.php:29
+msgid "Icelandic krona"
+msgstr ""
+
+#: Helpers/Currencies.php:30
+msgid "Indonesia Rupiah"
+msgstr ""
+
+#: Helpers/Currencies.php:31
+msgid "Indian Rupee"
+msgstr ""
+
+#: Helpers/Currencies.php:32
+msgid "Nepali Rupee"
+msgstr ""
+
+#: Helpers/Currencies.php:33
+msgid "Israeli Shekel"
+msgstr ""
+
+#: Helpers/Currencies.php:34
+msgid "Japanese Yen"
+msgstr ""
+
+#: Helpers/Currencies.php:35
+msgid "Lao Kip"
+msgstr ""
+
+#: Helpers/Currencies.php:36
+msgid "South Korean Won"
+msgstr ""
+
+#: Helpers/Currencies.php:37
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: Helpers/Currencies.php:38
+msgid "Mexican Peso"
+msgstr ""
+
+#: Helpers/Currencies.php:39
+msgid "Nigerian Naira"
+msgstr ""
+
+#: Helpers/Currencies.php:40
+msgid "Norwegian Krone"
+msgstr ""
+
+#: Helpers/Currencies.php:41
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:42
+msgid "Paraguayan Guaraní"
+msgstr ""
+
+#: Helpers/Currencies.php:43
+msgid "Philippine Pesos"
+msgstr ""
+
+#: Helpers/Currencies.php:44
+msgid "Polish Zloty"
+msgstr ""
+
+#: Helpers/Currencies.php:45
+msgid "Pounds Sterling"
+msgstr ""
+
+#: Helpers/Currencies.php:46
+msgid "Romanian Leu"
+msgstr ""
+
+#: Helpers/Currencies.php:47
+msgid "Russian Ruble"
+msgstr ""
+
+#: Helpers/Currencies.php:48
+msgid "Singapore Dollar"
+msgstr ""
+
+#: Helpers/Currencies.php:49
+msgid "South African rand"
+msgstr ""
+
+#: Helpers/Currencies.php:50
+msgid "Swedish Krona"
+msgstr ""
+
+#: Helpers/Currencies.php:51
+msgid "Swiss Franc"
+msgstr ""
+
+#: Helpers/Currencies.php:52
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: Helpers/Currencies.php:53
+msgid "Thai Baht"
+msgstr ""
+
+#: Helpers/Currencies.php:54
+msgid "Turkish Lira"
+msgstr ""
+
+#: Helpers/Currencies.php:55
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: Helpers/Currencies.php:56
+msgid "Vietse Dong"
+msgstr ""
+
+#: Helpers/Currencies.php:57
+msgid "Egyptian Pound"
+msgstr ""
+
+#: resources/views/admin/ask-for-review.php:6
+msgid "Your opinion matters! Leave a Review!"
+msgstr "Ваше мнение важно для! Оставьте отзыв!"
+
+#: resources/views/admin/ask-for-review.php:9
+msgid ""
+"We hope you’ve enjoyed using GrandWP Event Calendar plugin! Would you "
+"consider leaving us a review on WordPress?"
+msgstr ""
+"Надеемся, вам нравится использовать плагин Calendar Event! Хотите оставить "
+"отзыв на WordPress?"
+
+#: resources/views/admin/ask-for-review.php:15
+msgid "Sure!"
+msgstr "Конечно!"
+
+#: resources/views/admin/ask-for-review.php:18
+msgid "Already Left :)"
+msgstr "Уже оставил :)"
+
+#: resources/views/admin/ask-for-review.php:21
+msgid "Maybe Later"
+msgstr "Может быть позже"
+
+#: resources/views/admin/ask-for-review.php:24
+msgid "Don't Show This!"
+msgstr "Не показывать это!"
+
+#: resources/views/admin/calendar-featured-plugins.php:60
+#: resources/views/admin/calendar-featured-plugins.php:107
+#: resources/views/admin/calendar-featured-plugins.php:151
+#: resources/views/admin/top-banner.php:47
+msgid "Demo"
+msgstr "Демо версия"
+
+#: resources/views/admin/calendar-settings.php:8
+msgid "your e-mail..."
+msgstr "Ваш эл. адрес"
+
+#: resources/views/admin/calendar-settings.php:10
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: resources/views/admin/inline-popup.php:9
+msgid "Select the calendar to embed"
+msgstr "Выбрать Календарь для вставки"
+
+#: resources/views/admin/inline-popup.php:20
+msgid "Cancel"
+msgstr "Отменить"
+
+#: resources/views/admin/inline-popup.php:26
+msgid "You have not created any calendars"
+msgstr "Вы не создали календари"
+
+#: resources/views/admin/inline-popup.php:28
+msgid "Create new Calendar"
+msgstr "Создать новый Календарь"
+
+#: resources/views/admin/meta-boxes/calendar-settings-select-box.php:12
+msgid "Show events by"
+msgstr "Показать мероприятия по"
+
+#: resources/views/admin/meta-boxes/calendar-settings-select-box.php:25
+msgid "Select All"
+msgstr "Выбрать все"
+
+#: resources/views/admin/meta-boxes/calendar-sidebar-box.php:11
+msgid "PHP Code"
+msgstr "PHP код"
+
+#: resources/views/admin/meta-boxes/calendar-theme-box.php:7
+msgid "Select Theme"
+msgstr "Выбрать Тему"
+
+#: resources/views/admin/meta-boxes/calendar-theme-box.php:16
+#: resources/views/admin/meta-boxes/calendar-view-box.php:12
+#: resources/views/admin/meta-boxes/calendar-view-box.php:29
+msgid "(Pro)"
+msgstr "(Pro)"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:7
+msgid "Choose View"
+msgstr "Выбрать Вид"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:10
+msgid "Sidebar"
+msgstr "Боковая Панель"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:16
+msgid "All"
+msgstr "Все"
+
+#: resources/views/admin/meta-boxes/calendar-view-box.php:29
+msgid "Year"
+msgstr "Год"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:20
+msgid "Add organizer"
+msgstr "Добавить Организатора"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:21
+#: resources/views/admin/meta-boxes/event-venue-box.php:21
+msgid "Back"
+msgstr "Назад"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:26
+#: resources/views/admin/meta-boxes/event-venue-box.php:26
+#: resources/views/admin/meta-boxes/organizer-box.php:8
+#: resources/views/frontend/organizer/show.php:14
+msgid "Name"
+msgstr "Название"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:29
+#: resources/views/admin/meta-boxes/event-venue-box.php:29
+msgid "Please fill name field"
+msgstr "Пожалуйста, заполните поле названия"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:33
+#: resources/views/frontend/event/show.php:138
+msgid "Organized by"
+msgstr "Организовано"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:39
+#: resources/views/admin/meta-boxes/event-venue-box.php:33
+#: resources/views/admin/meta-boxes/event-venue-box.php:34
+#: resources/views/admin/meta-boxes/organizer-box.php:14
+#: resources/views/admin/meta-boxes/venue-box.php:9
+msgid "Address"
+msgstr "Адрес"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:45
+#: resources/views/admin/meta-boxes/organizer-box.php:20
+#: resources/views/frontend/organizer/show.php:22
+msgid "Phone"
+msgstr "Номер телефона"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:48
+#: resources/views/admin/meta-boxes/organizer-box.php:23
+msgid "Valid"
+msgstr "Действительный"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:49
+#: resources/views/admin/meta-boxes/organizer-box.php:24
+msgid "Invalid number"
+msgstr "Недействительный номер"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:53
+#: resources/views/admin/meta-boxes/organizer-box.php:28
+#: resources/views/frontend/organizer/show.php:30
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:59
+#: resources/views/admin/meta-boxes/organizer-box.php:34
+#: resources/views/frontend/organizer/show.php:26
+msgid "Email"
+msgstr "Эл. адрес"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:62
+msgid "Not a valid email address"
+msgstr "Недействительный эл. адрес"
+
+#: resources/views/admin/meta-boxes/event-organizer-box.php:69
+#: resources/views/admin/meta-boxes/event-venue-box.php:45
+msgid "Save"
+msgstr "Сохранить"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:8
+#: resources/views/frontend/event/show.php:67
+msgid "All Day"
+msgstr "Весь День"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:17
+msgid "Start"
+msgstr "Начало"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:20
+msgid "Please fill start date"
+msgstr "Пожалуйста, заполните дату начала"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:24
+msgid "End"
+msgstr "Окончание"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:27
+msgid "Please fill end date"
+msgstr "Пожалуйста, заполните дату окончания"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:28
+msgid "Wrong end date given"
+msgstr "Неверная дата окончания"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:33
+msgid "Timezone"
+msgstr "Часовой пояс"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:48
+#: resources/views/frontend/event/show.php:79
+msgid "Repeat"
+msgstr "Повторение"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:52
+msgid "Rate"
+msgstr "Частота"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:54
+msgid "Choose"
+msgstr "Выбрать"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:98
+#: resources/views/frontend/event/show.php:101
+msgid "Cost"
+msgstr "Стоимость"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:104
+msgid "Select Currency"
+msgstr "Выбрать валюту"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:117
+msgid "Before"
+msgstr "Перед"
+
+#: resources/views/admin/meta-boxes/event-time-box.php:118
+msgid "After"
+msgstr "После"
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:7
+#: resources/views/frontend/event/show.php:117
+#: resources/views/frontend/venue/show.php:14
+msgid "Location"
+msgstr "Локация"
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:9
+msgid "Choose location"
+msgstr "Выбрать локацию"
+
+#: resources/views/admin/meta-boxes/event-venue-box.php:20
+msgid "Add Venue"
+msgstr "Добавить Локацию"
+
+#: resources/views/admin/meta-boxes/venue-box.php:10
+msgid "Address..."
+msgstr "Адрес"
+
+#: resources/views/admin/top-banner.php:50
+msgid "Support Forum"
+msgstr "Форум Поддержки"
+
+#: resources/views/admin/top-banner.php:53
+msgid "Go Pro"
+msgstr "Приобрести лицензию"
+
+#: resources/views/admin/top-banner.php:56
+msgid "Help"
+msgstr "Помощь"
+
+#: resources/views/frontend/calendar/day.php:47
+#: resources/views/frontend/calendar/month.php:32
+#: resources/views/frontend/calendar/week.php:45
+msgid "No results found"
+msgstr "Результатов не найдено"
+
+#: resources/views/frontend/calendar/day.php:123
+#: resources/views/frontend/calendar/events.php:84
+#: resources/views/frontend/calendar/events.php:250
+#: resources/views/frontend/calendar/week.php:164
+msgid "All day"
+msgstr "Весь День"
+
+#: resources/views/frontend/calendar/day.php:144
+#: resources/views/frontend/calendar/day.php:165
+#: resources/views/frontend/calendar/one-event.php:26
+#: resources/views/frontend/calendar/week.php:185
+#: resources/views/frontend/calendar/week.php:198
+msgid "Starts"
+msgstr "Начало"
+
+#: resources/views/frontend/calendar/day.php:145
+#: resources/views/frontend/calendar/day.php:166
+#: resources/views/frontend/calendar/one-event.php:27
+#: resources/views/frontend/calendar/week.php:186
+#: resources/views/frontend/calendar/week.php:199
+msgid "Ends"
+msgstr "Окончание"
+
+#: resources/views/frontend/calendar/more-event.php:2
+#: resources/views/frontend/calendar/week.php:214
+msgid "View all"
+msgstr "Просмотреть все"
+
+#: resources/views/frontend/calendar/week.php:54
+msgid "CW"
+msgstr "ТН"
+
+#: resources/views/frontend/event/show.php:32
+msgid "Back to Calendar"
+msgstr "Вернуться к Календарю"
+
+#: resources/views/frontend/event/show.php:44
+#: resources/views/frontend/event_category/show.php:32
+#: resources/views/frontend/event_tag/show.php:34
+msgid "Start Date"
+msgstr "Дата начала"
+
+#: resources/views/frontend/event/show.php:48
+#: resources/views/frontend/event_category/show.php:36
+#: resources/views/frontend/event_tag/show.php:38
+msgid "End Date"
+msgstr "Дата окончания"
+
+#: resources/views/frontend/event/show.php:54
+msgid "Time"
+msgstr "Время"
+
+#: resources/views/frontend/event/show.php:72
+msgid "to"
+msgstr "до"
+
+#: resources/views/frontend/event/show.php:81
+msgid "Event repeated every "
+msgstr "Мероприятие повторяется каждый день"
+
+#: resources/views/frontend/event/show.php:84
+msgid "day"
+msgstr "день"
+
+#: resources/views/frontend/event/show.php:84
+msgid "days"
+msgstr "дни"
+
+#: resources/views/frontend/event/show.php:87
+msgid "week"
+msgstr "неделя"
+
+#: resources/views/frontend/event/show.php:87
+msgid "weeks"
+msgstr "недели"
+
+#: resources/views/frontend/event/show.php:90
+msgid "month"
+msgstr "месяц"
+
+#: resources/views/frontend/event/show.php:90
+msgid "months"
+msgstr "месяцы"
+
+#: resources/views/frontend/event/show.php:93
+msgid "year"
+msgstr "год"
+
+#: resources/views/frontend/event/show.php:93
+msgid "years"
+msgstr "года"
+
+#: resources/views/frontend/event/show.php:125
+#: resources/views/frontend/event_category/show.php:46
+#: resources/views/frontend/event_tag/show.php:48
+msgid "Description"
+msgstr "Описание"
+
+#: resources/views/frontend/event_category/show.php:58
+#: resources/views/frontend/event_tag/show.php:60
+msgid "Nothing found here"
+msgstr "Здесь ничего не найдено"
+
+#: resources/views/frontend/organizer/show.php:18
+msgid "Organizer's Address"
+msgstr "Адрес Организатора"
+
+#. Plugin URI of the plugin/theme
+msgid "http://grandwp.com"
+msgstr "http://grandwp.com"
+
+#. Description of the plugin/theme
+msgid "GrandWP Calendar is a great plugin for adding specialized Calendar."
+msgstr ""
+"GrandWP Calendar - отличный плагин для добавления специализированного "
+"календаря."
+
+#. Author of the plugin/theme
+msgid "GrandWP"
+msgstr "GrandWP"
+
+#. Author URI of the plugin/theme
+msgid "http://grandwp.com/"
+msgstr "http://grandwp.com/"

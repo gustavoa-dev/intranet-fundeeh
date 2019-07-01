@@ -1,0 +1,446 @@
+/*************************************************
+*	=Global
+**************************************************/
+* {
+	margin:0;
+	padding:0;
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+/*************************************************
+*	=Type
+**************************************************/
+#stafflistwrap h1 {
+	color: #444;
+}
+#stafflistwrap h2 {
+	margin-top: 20px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #CFCFCF;
+	padding-top: 30px;
+	color: #444;
+}
+#stafflistwrap h4 {
+	margin-bottom: 0;
+}
+tt {
+	font-family: courier, monospace;
+	margin: 6px 30px;
+	display: inline-block;
+	color: #0073AA;
+	font-weight:bold;
+}
+tt span {
+	font-family: courier, monospace;
+	color: #B74327;
+}
+#stafflist_new {
+	line-height: 20px;
+	display: inline-block;
+	border-left: 1px dotted #444;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.exports {
+	line-height: 20px;
+	display: inline-block;
+	border-left: 1px dotted #444;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+/*************************************************
+*	=Instructions
+**************************************************/
+#stafflist_instructions {
+	border: 1px solid #B74327;
+	padding: 10px;
+	background: white;
+	position:absolute;
+	width: 800px;
+	-webkit-transition: .75s ease-in-out;
+    -moz-transition: .75s ease-in-out;
+    -o-transition: .75s ease-in-out;
+    transition: .75s ease-in-out;
+    display: none;
+}
+#stafflist_instructions div.sltabs {
+    width: 822px;
+    display: block;
+    position: absolute;
+    margin: 11px 0 0 -11px;
+    height: 30px;
+}
+#stafflist_instructions div.sltab {
+	display: block;
+	background: #B74327;
+	color: white;
+	font-weight: normal;
+	padding: 6px 10px;
+	float: right;
+	margin: 0 16px 0 0;
+	cursor: pointer;
+}
+#stafflist_instructions div.sltab:after {
+	content: "\f347";
+	font-family: dashicons;
+	display: block;
+	float: right;
+	margin: 1px 0 0 4px;
+}
+#stafflist_instructions div.sltab.expanded:after {
+	content: "\f343";
+	font-family: dashicons;
+}
+#stafflist_instructions div.sltabs span {
+	font-size:22px;
+}
+/*************************************************
+*	=Tables
+**************************************************/
+#stafflisthead tr, #stafflisthead tr th {
+	height: 20px;
+	background-color: #cfcfcf;
+	font-weight: bold;
+}
+tr.row {
+	height: 30px;
+}
+tr.orange, #warning.orange {
+	background: #ffe4db;
+	border: 1px solid #990000;
+}
+#warning {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.focusField {
+	padding-left: 20px;
+	width: 200px;
+	border:solid 2px #73A6FF;
+	background: #EFF5FF url(img/edit.png) no-repeat 2px 2px;
+	color:#000;
+}
+.idleField {
+	padding-left: 20px;
+	width: 200px;
+	background:#EEE url(img/okay.png) no-repeat 2px 2px;
+	color: #6F6F6F;
+	border: solid 2px #DFDFDF;
+}
+.updateField {
+	padding-left: 20px;
+	 width: 200px;
+	background: url(img/updating.gif) no-repeat 2px 2px;
+}
+.sort_a, .sort_d {
+	width: 9px;
+	height: 9px;
+	display: inline-block;
+	margin: 0 2px;
+	overflow: hidden;
+    text-indent: -9999px;
+    transition-duration: 0s;
+}
+.sort_a span, .sort_d span {
+	display: none;
+}
+.sort_a {
+	background-position: 9px 0;
+	background-image: url(img/sort.gif);
+}
+.sort_d {
+	background-position: 9px 9px;
+	background-image: url(img/sort.gif);
+}
+.sort_a.selected {
+	background-position: 0 0;
+}
+.sort_d.selected {
+	background-position: 0 9px;
+}
+.sort_a:hover {
+	background-position: 18px 0;
+}
+.sort_d:hover {
+	background-position: 18px 9px;
+}
+/*************************************************
+*	=Directory
+**************************************************/
+#searchdirectory {
+	float: right;
+	margin: -4px 4px 4px 0;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 4px 8px;
+	min-width: 170px;	
+}
+#stafflistwrap .remove {
+	padding: 0;
+	text-decoration: none;
+	display: inline-block;
+	margin: 3px 1px 0 1px;
+}
+#stafflistwrap .remove:before {
+	content: "\f182";
+	font-family: dashicons;
+	font-size: 20px;
+	color: #999;
+	text-decoration:none;
+	-webkit-transition: color .2s ease;
+	-moz-transition: color .2s ease;
+	-o-transition: color .2s ease;
+	transition: color .2s ease;
+}
+#stafflistwrap .remove:hover:before {
+	color: #B74327;
+}
+/*************************************************
+*	=Pager
+**************************************************/
+#stafflistwrap p.pager {
+	min-width:18px;
+	height:14px;
+	display:block;
+	text-decoration: none;
+	text-align:center;
+	float:left;
+	margin: 0 3px;
+	padding:0 0 5px 0;
+}
+#stafflistwrap p.pager a {
+	text-decoration:none;
+	display: block;
+	color: #444;
+}
+#stafflistwrap p.pager:hover a {
+	color: #0073AA;
+}
+#stafflistwrap p.pager.disabled {
+	cursor: default;
+}
+#stafflistwrap p.pager.current a, 
+p.pager:not(.disabled):hover a {
+	color: #0073AA;
+}
+#stafflistwrap .pageNum {
+	padding-left: 5px;
+	font: normal normal 11px/20px sans-serif;
+	line-height: 20px;
+	display: inline-block;
+	border-left: 1px dotted #444;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+.upd {
+	margin:0;
+	padding:0;
+	float:left;
+	width:16px;
+	height:16px;
+}
+.updA {
+	background-image: url(img/updating.gif);
+	margin:0;
+	padding:0;
+	float:left;
+	width:16px;
+	height:16px;
+}
+.contactcard {
+	background: url(img/contact_card.gif) no-repeat;
+	width:25px;
+	height:25px;
+	margin:4px;
+}
+/*************************************************
+*	=Rename Standard Column Titles
+**************************************************/
+#stafflistRename label {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	padding-right: 10px;
+	font-weight:bold;
+}
+#stafflistRename label em {
+	display: block;
+	float: left;
+	margin-right: 10px;
+	padding-right: 10px;
+	font-weight: normal;
+	font-size: 12px;
+}
+#stafflistRename input {
+	float: right;
+	width: 200px;
+	font-weight: normal;
+	margin-right: 16px;
+}
+#stafflistRename input[type=button] {
+	background: #BD4825;
+	color: #FFF;
+	border: 0;
+	padding: 8px 20px;
+	-webkit-appearance: none;
+}
+#stafflistRename tr.renameDivider {
+	height: 18px;
+}
+/*************************************************
+*	=Import
+**************************************************/
+#importStaff {
+	background: #FDFDFD;
+	padding: 10px 4px;
+}
+#importStaff span {
+	background: #cfcfcf; 
+	padding: 3px;
+	margin: 0 3px;
+	display: inline-block;
+}
+#sl_results {   
+	margin: 20px 0 0 0;
+	padding: 10px;
+	background: #568A45;
+	color: #FFF;
+	border: none;
+}
+#sl_results strong {
+	text-decoration:underline;
+}
+#sl_results.sl_error {  
+	margin: 20px 0 0 0;
+	padding: 10px;
+	background: #BD4825;
+}
+#importStaff, #stafflistRename {
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	border-radius: 3px;
+	padding: 10px;
+	margin-right: 10px;
+	overflow: inherit;
+}
+#importStaff table {
+	width: 100%;
+	text-align: left;
+}
+#importStaff thead th {
+	font-weight: normal;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+#importStaff tr {
+	background-color: transparent;
+}
+#importStaff input[type='submit'] {
+	background: #BD4825;
+	color: #FFF;
+	border: 0;
+	padding: 8px 20px;
+	-webkit-appearance: none;
+	float: right;
+}
+#importStaff p.instructions {
+	line-height: 18px;
+}
+#importStaff span.urlsample,
+#importStaff span.urlsample svg {
+	width: 22px;
+	height: 22px;
+	display: inline;
+	background: none;
+	margin: 0 -1px -4px -1px;
+}
+/*************************************************
+*	=Columns
+**************************************************/
+#sortable1, #sortable2 {
+    width: 98%;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 6px 10px 18px 0;
+    padding: 6px;
+    float: left;
+    border: 3px solid #cfcfcf; 
+    background: white;
+}
+#sortable1 li, #sortable2 li {
+    margin: 0 2px 0 0;
+    padding: 5px;
+    font-size: 1.2em;
+    min-width: 70px;
+    float: left;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bolder;
+    cursor: move;
+}
+#sortable1 li {
+	background: #fbf9ee;
+    border: 1px solid #fcefa1;
+    color: #363636;
+}
+#sortable1 li.ui-sortable-helper,#sortable1 li.ui-sortable-placeholder {
+ 	background: #ffa98d;
+ 	border: 1px solid #B74327;
+}
+#sortable2 li {
+    background: #e6e6e6;
+    border: 1px solid #d3d3d3;
+    color: #555555;
+}
+/*************************************************
+*	=Help
+**************************************************/
+#stafflistwrap .dashicons-editor-help {
+	color: #D4D4D4;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: normal;
+	-webkit-transition: color .2s ease;
+	-moz-transition: color .2s ease;
+	-o-transition: color .2s ease;
+	transition: color .2s ease;
+}
+#stafflistwrap .dashicons-editor-help:hover {
+	color: #BD4825;
+}
+/*************************************************
+*	=Footer
+**************************************************/
+#stafflistwrap div.footer {
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-between;
+	margin-top:30px;
+	border: 1px solid #DDD;
+	background-color: #FFF;
+	border-radius: 3px;
+	padding: 10px;
+}
+#stafflistwrap div.footer > div {
+	flex-grow: 1;
+	flex-basis: 0;
+	margin-top: 12px;
+}
+#stafflistwrap div.footer > div > a > img {
+	margin: 10px 0;
+}
+#stafflistwrap div.footer p {
+	font-size: 11px;
+	max-width: 90%;
+}
+#stafflistwrap div.donate {
+	display:none;
+}
+footer small {
+	text-transform: uppercase;
+	font-style: normal;
+	font-size: 9px;
+	letter-spacing: 1px;
+}
+footer small a {
+	font-weight: bold;
+}
